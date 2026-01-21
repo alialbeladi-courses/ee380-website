@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Modernize fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+/* Enhancements for tables in calendar */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Callout adjustments */
+.callout {
+    border-radius: 6px;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #004488;
+    text-decoration: underline;
+}
+
+/* Navbar polish */
+.navbar {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}

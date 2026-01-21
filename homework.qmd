@@ -1,0 +1,17 @@
+---
+title: "Homework"
+format: html
+---
+
+Assignments are due on **Fridays at 5:00 PM** via Gradescope.
+
+| Assignment | Release Date | Due Date | Files | Solutions |
+|:----------:|--------------|----------|-------|-----------|
+| **HW 0** | Jan 8 | Jan 13 | [PDF](#) / [Tex](#) | [Sol](#) |
+| **HW 1** | Jan 15 | Jan 22 | [PDF](#) / [Tex](#) | [Sol](#) |
+| **HW 2** | Jan 22 | Jan 29 | [PDF](#) / [Tex](#) | - |
+
+::: {.callout-tip}
+## Submission Guidelines
+Please submit a single PDF file containing your written work and any relevant code snippets.
+:::

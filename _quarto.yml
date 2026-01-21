@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "EE380: Control Systems"
+  description: "Undergraduate Control Systems Course"
+  site-url: "https://example.com/ee380" 
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: calendar.qmd
+        text: Calendar
+      - href: homework.qmd
+        text: Homework
+      - href: policy.qmd
+        text: Policy
+    right:
+      - icon: github
+        href: https://github.com/username/ee380-website
+        aria-label: GitHub
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Course Info"
+        contents:
+          - index.qmd
+          - policy.qmd
+      - section: "Schedule"
+        contents:
+          - calendar.qmd
+      - section: "Assignments"
+        contents:
+          - homework.qmd
+
+  page-footer:
+    left: "EE380 Control Systems"
+    right: "Powered by [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-copy: true
+    highlight-style: github

@@ -1,0 +1,19 @@
+---
+title: "Simulation: Step Response"
+format: html
+---
+
+## Step Response
+
+This is a placeholder for the interactive step response simulation. 
+
+*Note: To enable interactivity, we will need to install the `quarto-pyodide` extension.*
+
+### Python Code
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Simulation code will go here
+print("Hello from Pyodide!")
+```

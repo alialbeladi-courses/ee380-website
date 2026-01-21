@@ -1,0 +1,33 @@
+---
+title: "EE380: Control Systems"
+format: html
+---
+
+# Welcome to EE380
+
+**Spring 2026** | **Instructor:** Prof. [Name]
+
+EE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).
+
+::: {.callout-note}
+## Fast Links
+*   [**Calendar**](calendar.qmd) - Weekly schedule and slides
+*   [**Homework**](homework.qmd) - Assignments and solutions
+*   [**Syllabus**](policy.qmd) - Grading and course policies
+:::
+
+## Announcements
+
+### Week 1: Getting Started
+*Welcome to the course!* Please review the [Syllabus](policy.qmd) and install Python if you plan to run simulations locally. The first homework is posted.
+
+---
+
+## Course Logistics
+
+|  | Details |
+|--|---------|
+| **Lectures** | Mon/Wed 10:30 AM - 11:50 AM (Room 320-105) |
+| **Office Hours** | Tue 2:00 PM - 4:00 PM (Packard 202) |
+| **Midterm** | Feb 25, 2026 (In Class) |
+| **Final** | Mar 20, 2026 (7:00 PM - 10:00 PM) |
