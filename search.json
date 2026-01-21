@@ -1,0 +1,116 @@
+[
+  {
+    "objectID": "modules/sim_step.html",
+    "href": "modules/sim_step.html",
+    "title": "Simulation: Step Response",
+    "section": "",
+    "text": "This is a placeholder for the interactive step response simulation.\nNote: To enable interactivity, we will need to install the quarto-pyodide extension.\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Simulation code will go here\nprint(\"Hello from Pyodide!\")"
+  },
+  {
+    "objectID": "modules/sim_step.html#step-response",
+    "href": "modules/sim_step.html#step-response",
+    "title": "Simulation: Step Response",
+    "section": "",
+    "text": "This is a placeholder for the interactive step response simulation.\nNote: To enable interactivity, we will need to install the quarto-pyodide extension.\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Simulation code will go here\nprint(\"Hello from Pyodide!\")"
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Assignments are due on Fridays at 5:00 PM via Gradescope.\n\n\n\nAssignment\nRelease Date\nDue Date\nFiles\nSolutions\n\n\n\n\nHW 0\nJan 8\nJan 13\nPDF / Tex\nSol\n\n\nHW 1\nJan 15\nJan 22\nPDF / Tex\nSol\n\n\nHW 2\nJan 22\nJan 29\nPDF / Tex\n-\n\n\n\n\n\n\n\n\n\nTipSubmission Guidelines\n\n\n\nPlease submit a single PDF file containing your written work and any relevant code snippets.",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "Homework"
+    ]
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "Course Policy",
+    "section": "",
+    "text": "Grading Scheme\n\n\n\nComponent\nWeight\nNotes\n\n\n\n\nHomework\n30%\nWeekly assignments, lowest score dropped.\n\n\nMidterm\n30%\nIn-class, open notes.\n\n\nFinal Exam\n40%\nComprehensive.\n\n\n\n\n\nCollaboration Policy\nYou are encouraged to discuss problem sets with classmates, but you must write up your own solutions. Copying code or derivations is not allowed.\n\n\nResources\n\nTextbook: Feedback Control of Dynamic Systems, Franklin, Powell, Emami-Naeini (8th Ed).\nSoftware: We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EE380: Control Systems",
+    "section": "",
+    "text": "Spring 2026 | Instructor: Prof. [Name]\nEE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).\n\n\n\n\n\n\nNoteFast Links\n\n\n\n\nCalendar - Weekly schedule and slides\nHomework - Assignments and solutions\nSyllabus - Grading and course policies\n\n\n\n\n\n\n\nWelcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.\n\n\n\n\n\n\n\n\n\nDetails\n\n\n\n\nLectures\nMon/Wed 10:30 AM - 11:50 AM (Room 320-105)\n\n\nOffice Hours\nTue 2:00 PM - 4:00 PM (Packard 202)\n\n\nMidterm\nFeb 25, 2026 (In Class)\n\n\nFinal\nMar 20, 2026 (7:00 PM - 10:00 PM)",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "EE380: Control Systems",
+    "section": "",
+    "text": "Welcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#course-logistics",
+    "href": "index.html#course-logistics",
+    "title": "EE380: Control Systems",
+    "section": "",
+    "text": "Details\n\n\n\n\nLectures\nMon/Wed 10:30 AM - 11:50 AM (Room 320-105)\n\n\nOffice Hours\nTue 2:00 PM - 4:00 PM (Packard 202)\n\n\nMidterm\nFeb 25, 2026 (In Class)\n\n\nFinal\nMar 20, 2026 (7:00 PM - 10:00 PM)",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html",
+    "href": "INSTRUCTOR_GUIDE.html",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Schedule & Materials",
+    "section": "",
+    "text": "Detailed course schedule. Slides and notes will be posted here before each lecture.\n\nWeekly Schedule\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\n1\nJan 6\nOverview & ModelingIntroduction to Control, Block Diagrams\nSlides (PDF)  Reading: Ch 1\n\n\n\n\nJan 8\ndynamic SystemsDiff Eqs, Laplace Transforms\nSlides (PDF)  Notes (HTML)\nHw 0 Out\n\n\n2\nJan 13\nTime ResponseFirst and Second Order Systems\nSlides (PDF)  Sim: Step Response\nHw 0 Due\n\n\n\nJan 15\nStabilityRouth-Hurwitz Criterion\nSlides (PDF)\nHw 1 Out",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  }
+]
