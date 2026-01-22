@@ -3,7 +3,7 @@ title: "Homework"
 format: html
 ---
 
-Assignments are due by **11:59 PM** via [Gradescope]().
+Assignments are due by **11:59 PM** via [Gradescope](https://www.gradescope.com/courses/1238257) (Entry Code: D684VR).
 
 | Assignment | Release Date | Due Date | Files |
 |:----------:|--------------|----------|-------|
