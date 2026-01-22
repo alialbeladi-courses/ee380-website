@@ -8,10 +8,10 @@ Detailed course schedule. Slides and notes will be posted here before each lectu
 | Week | Date | Topic | Materials | Deadlines |
 |:---:|------|-------|-----------|-----------|
 | **1** | Jan 11 | **Overview **<br>Introduction to Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCLrKx8SV7nRatIEg14Lga3AUlufldg3FP_3wStS32hh2g?e=sqeFIh) <br>  | |
-| | Jan 13 | **Dynamic Systems**<br>Differential Equations | [Slides (PDF)](#) <br>  |  |
-| | Jan 15 | **Laplace Transform Review**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](#) <br>  |  |
-| **2** | Jan 18| **Laplace Transform Review**<br>Laplace Transforms | [Slides (PDF)](#) <br>  |  |
-| | Jan 20| **Modelling**<br>Modelling DC Motor | [Slides (PDF)](#) |  |
+| | Jan 13 | **Dynamic Systems**<br>Differential Equations | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_13_Modelling.pdf?csf=1&web=1&e=jcBHV5) <br>  |  |
+| | Jan 15 | **Laplace Transform Review**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_15_Laplace%20Review.pdf?csf=1&web=1&e=Q3pYxQ) <br>  |  |
+| **2** | Jan 18| **Laplace Transform Review**<br>Laplace Transforms | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_18_Laplace%20Review%202.pdf?csf=1&web=1&e=T1nSNo) <br>  |  |
+| | Jan 20| **Modelling**<br>Modelling DC Motor | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_20_Dynamic%20Modelling%20II.pdf?csf=1&web=1&e=SO0ldl) |  |
 | | Jan 22| **Modelling**<br>Modelling Mechanical Systems, Block Diagrams | [Slides (PDF)](#) | [HW 1](homework.qmd) Out |
 
 : Weekly Schedule {tbl-colwidths="[5, 10, 40, 30, 15]"}
