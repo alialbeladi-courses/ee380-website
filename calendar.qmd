@@ -12,6 +12,6 @@ Detailed course schedule. Slides and notes will be posted here before each lectu
 | | Jan 15 | **Laplace Transform Review**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](#) <br>  |  |
 | **2** | Jan 18| **Laplace Transform Review**<br>Laplace Transforms | [Slides (PDF)](#) <br>  |  |
 | | Jan 20| **Modelling**<br>Modelling DC Motor | [Slides (PDF)](#) |  |
-| | Jan 22| **Modelling**<br>Modelling Mechanical Systems, Block Diagrams | [Slides (PDF)](#) | [HW 1](#homework.qmd) Out |
+| | Jan 22| **Modelling**<br>Modelling Mechanical Systems, Block Diagrams | [Slides (PDF)](#) | [HW 1](homework.qmd) Out |
 
 : Weekly Schedule {tbl-colwidths="[5, 10, 40, 30, 15]"}
