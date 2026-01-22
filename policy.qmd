@@ -18,4 +18,4 @@ You are encouraged to discuss problem sets with classmates, but you must write u
 # Resources
 *   **Textbook (Main):** R Dorf and R Bishop, *Modern Control System*, Prentice-Hall, 13th Edition, 2017
 *   **Textbook (optional):** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*,  (8th Ed).
-*   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
+*   **Software:** We will use Matlab/Simulink for computational assignmentsand and Python in some cases.
