@@ -7,9 +7,11 @@ Detailed course schedule. Slides and notes will be posted here before each lectu
 
 | Week | Date | Topic | Materials | Deadlines |
 |:---:|------|-------|-----------|-----------|
-| **1** | Jan 5 | **Overview & Modeling**<br>Introduction to Control, Block Diagrams | [Slides (PDF)](#) <br> [Reading: Ch 1](#) | |
-| | Jan 8 | **dynamic Systems**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](#) <br> [Notes (HTML)](#) | Hw 0 Out |
-| **2** | Jan 12| **Time Response**<br>First and Second Order Systems | [Slides (PDF)](#) <br> [Sim: Step Response](modules/sim_step.qmd) | Hw 0 Due |
-| | Jan 13| **Stability**<br>Routh-Hurwitz Criterion | [Slides (PDF)](#) | Hw 1 Out |
+| **1** | Jan 11 | **Overview & Modeling**<br>Introduction to Control, Block Diagrams | [Slides (PDF)](#) <br> [Reading: Ch 1](#) | |
+| | Jan 13 | **dynamic Systems**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](#) <br> [Notes (HTML)](#) | Hw 0 Out |
+| | Jan 15 | **dynamic Systems**<br>Diff Eqs, Laplace Transforms | [Slides (PDF)](#) <br> [Notes (HTML)](#) | Hw 0 Out |
+| **2** | Jan 18| **Time Response**<br>First and Second Order Systems | [Slides (PDF)](#) <br> [Sim: Step Response](modules/sim_step.qmd) | Hw 0 Due |
+| | Jan 20| **Stability**<br>Routh-Hurwitz Criterion | [Slides (PDF)](#) | Hw 1 Out |
+| | Jan 22| **Stability**<br>Routh-Hurwitz Criterion | [Slides (PDF)](#) | Hw 1 Out |
 
 : Weekly Schedule {tbl-colwidths="[5, 10, 40, 30, 15]"}
