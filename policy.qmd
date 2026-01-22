@@ -7,15 +7,15 @@ format: html
 
 | Component | Weight | Notes |
 |-----------|--------|-------|
-| **Homework** | 30% | Weekly assignments, lowest score dropped. |
-| **Midterm** | 30% | In-class, open notes. |
-| **Final Exam** | 40% | Comprehensive. |
+| **Classwork** | 25% | Assignments, Quizes, Project |
+| **Major Exams** | 40% | TBA |
+| **Final Exam** | 35% | TBA |
 
 # Collaboration Policy
 
 You are encouraged to discuss problem sets with classmates, but you must write up your own solutions. **Copying code or derivations is not allowed.**
 
 # Resources
-
-*   **Textbook:** *Feedback Control of Dynamic Systems*, Franklin, Powell, Emami-Naeini (8th Ed).
+*   **Textbook (Main):** R Dorf and R Bishop, *Modern Control System*, Prentice-Hall, 13th Edition, 2017
+*   **Textbook (optional):** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*,  (8th Ed).
 *   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
