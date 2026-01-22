@@ -106,7 +106,7 @@
     "href": "calendar.html",
     "title": "Schedule & Materials",
     "section": "",
-    "text": "Detailed course schedule. Slides and notes will be posted here before each lecture.\n\nWeekly Schedule\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\n1\nJan 5\nOverview & ModelingIntroduction to Control, Block Diagrams\nSlides (PDF)  Reading: Ch 1\n\n\n\n\nJan 8\ndynamic SystemsDiff Eqs, Laplace Transforms\nSlides (PDF)  Notes (HTML)\nHw 0 Out\n\n\n2\nJan 12\nTime ResponseFirst and Second Order Systems\nSlides (PDF)  Sim: Step Response\nHw 0 Due\n\n\n\nJan 15\nStabilityRouth-Hurwitz Criterion\nSlides (PDF)\nHw 1 Out",
+    "text": "Detailed course schedule. Slides and notes will be posted here before each lecture.\n\nWeekly Schedule\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\n1\nJan 5\nOverview & ModelingIntroduction to Control, Block Diagrams\nSlides (PDF)  Reading: Ch 1\n\n\n\n\nJan 8\ndynamic SystemsDiff Eqs, Laplace Transforms\nSlides (PDF)  Notes (HTML)\nHw 0 Out\n\n\n2\nJan 12\nTime ResponseFirst and Second Order Systems\nSlides (PDF)  Sim: Step Response\nHw 0 Due\n\n\n\nJan 13\nStabilityRouth-Hurwitz Criterion\nSlides (PDF)\nHw 1 Out",
     "crumbs": [
       "Home",
       "Schedule",
