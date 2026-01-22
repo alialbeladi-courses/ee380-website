@@ -33,13 +33,13 @@ In this course, every element of class assignments must be fully prepared by the
 
 ## Regrade Policy
 You may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes:
-* We reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.
-* Legitimate regrade requests include:
-    * The points were not added correctly.
-    * The comments say I’m missing part (c), but it was actually on a different page.
-    * The comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case.
-* Illegitimate regrade requests include:
-    * I disagree with the rubric; I should have gotten more partial credit for my solution.
-    * I understand that my solution wasn’t clear, but what I meant to say was correct.
+*   We reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.
+*   Legitimate regrade requests include:
+    *   The points were not added correctly.
+    *   The comments say I’m missing part (c), but it was actually on a different page.
+    *   The comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case.
+*   Illegitimate regrade requests include:
+    *   I disagree with the rubric; I should have gotten more partial credit for my solution.
+    *   I understand that my solution wasn’t clear, but what I meant to say was correct.
 
 
