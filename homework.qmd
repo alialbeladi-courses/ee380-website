@@ -5,11 +5,11 @@ format: html
 
 Assignments are due on **Fridays at 5:00 PM** via Gradescope.
 
-| Assignment | Release Date | Due Date | Files | Solutions |
-|:----------:|--------------|----------|-------|-----------|
-| **HW 0** | Jan 8 | Jan 13 | [PDF](#) / [Tex](#) | [Sol](#) |
-| **HW 1** | Jan 15 | Jan 22 | [PDF](#) / [Tex](#) | [Sol](#) |
-| **HW 2** | Jan 22 | Jan 29 | [PDF](#) / [Tex](#) | - |
+| Assignment | Release Date | Due Date | Files |
+|:----------:|--------------|----------|-------|
+| **HW 1** | Jan 23 | Jan 31 | [PDF](#)  |
+| **HW 2** |  |  |  | 
+| **HW 3** |  | |   | 
 
 ::: {.callout-tip}
 ## Submission Guidelines
