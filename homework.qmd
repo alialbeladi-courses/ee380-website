@@ -3,7 +3,7 @@ title: "Homework"
 format: html
 ---
 
-Assignments are due on **Fridays at 5:00 PM** via Gradescope.
+Assignments are due by **11:59 PM** via [Gradescope]().
 
 | Assignment | Release Date | Due Date | Files |
 |:----------:|--------------|----------|-------|
