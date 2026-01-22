@@ -18,7 +18,7 @@
     "href": "homework.html",
     "title": "Homework",
     "section": "",
-    "text": "Assignments are due by 11:59 PM via Gradescope (Entry Code: D684VR). Read about how to submit assignments on Gradescope here. Some pointers: * Make sure your written work is clear and easy to read. If the TA cannot read your work, he cannot grade it. He may ask you to resubmit, or take points off. * Do upload high quality PDF scans; most modern smartphones have a document scanning functionality. * Make sure to use the tools in Gradescope to mark where in your upload the answer to each question can be found. * One good practice is to start each question on a new page. * For a multi-page answer, associate all relevant pages with the question.",
+    "text": "Assignments are due by 11:59 PM via Gradescope (Entry Code: D684VR).\nRead about how to submit assignments on Gradescope here. Some pointers:",
     "crumbs": [
       "Home",
       "Assignments",
@@ -66,7 +66,7 @@
     "href": "homework.html#regrade-policy",
     "title": "Homework",
     "section": "Regrade Policy",
-    "text": "Regrade Policy\nYou may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes: * We reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction. * Legitimate regrade requests include: * The points were not added correctly. * The comments say I’m missing part (c), but it was actually on a different page. * The comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case. * Illegitimate regrade requests include: * I disagree with the rubric; I should have gotten more partial credit for my solution. * I understand that my solution wasn’t clear, but what I meant to say was correct.",
+    "text": "Regrade Policy\nYou may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes:\n\nWe reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.\nLegitimate regrade requests include:\n\nThe points were not added correctly.\nThe comments say I’m missing part (c), but it was actually on a different page.\nThe comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case.\n\nIllegitimate regrade requests include:\n\nI disagree with the rubric; I should have gotten more partial credit for my solution.\nI understand that my solution wasn’t clear, but what I meant to say was correct.",
     "crumbs": [
       "Home",
       "Assignments",
