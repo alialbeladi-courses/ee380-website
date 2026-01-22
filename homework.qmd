@@ -4,7 +4,9 @@ format: html
 ---
 
 Assignments are due by **11:59 PM** via [Gradescope](https://www.gradescope.com/courses/1238257) (Entry Code: D684VR).
+
 **Read** about how to submit assignments on Gradescope [here](https://help.gradescope.com/article/ccbpppziu9-student-submit-work#variable_length_submissions). Some pointers:
+
 *   Make sure your written work is clear and easy to read. If the TA cannot read your work, he cannot grade it. He may ask you to resubmit, or take points off.
 *   Do upload high quality PDF scans; most modern smartphones have a document scanning functionality.
 *   Make sure to use the tools in Gradescope to mark where in your upload the answer to each question can be found.
@@ -33,6 +35,7 @@ In this course, every element of class assignments must be fully prepared by the
 
 ## Regrade Policy
 You may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes:
+
 *   We reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.
 *   Legitimate regrade requests include:
     *   The points were not added correctly.
