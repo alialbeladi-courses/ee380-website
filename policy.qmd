@@ -15,7 +15,17 @@ format: html
 
 You are encouraged to discuss problem sets with classmates, but you must write up your own solutions. **Copying code or derivations is not allowed.**
 
+test
+
+
+*   **Textbook (optional):** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*,  (8th Ed).
+*   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
+
+test
+*   **Textbook (optional):** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*,  (8th Ed).
+*   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
+
 # Resources
-*   **Textbook (Main):** R Dorf and R Bishop, *Modern Control System*, Prentice-Hall, 13th Edition, 2017
+*   Textbook (Main): R Dorf and R Bishop, *Modern Control System*, Prentice-Hall, 13th Edition, 2017
 *   **Textbook (optional):** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*,  (8th Ed).
 *   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
