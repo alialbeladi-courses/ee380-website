@@ -42,7 +42,7 @@
     "href": "index.html",
     "title": "EE380: Control Systems",
     "section": "",
-    "text": "Spring 2026 | Instructor: Prof. [Name]\nEE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).\n\n\n\n\n\n\nNoteFast Links\n\n\n\n\nCalendar - Weekly schedule and slides\nHomework - Assignments and solutions\nSyllabus - Grading and course policies\n\n\n\n\n\n\n\nWelcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.\n\n\n\n\n\n\n\n\n\nDetails\n\n\n\n\nLectures\nMon/Wed 10:30 AM - 11:50 AM (Room 320-105)\n\n\nOffice Hours\nTue 2:00 PM - 4:00 PM (Packard 202)\n\n\nMidterm\nFeb 25, 2026 (In Class)\n\n\nFinal\nMar 20, 2026 (7:00 PM - 10:00 PM)",
+    "text": "Spring 2026 | Instructor: Dr. Ali AlBeladi and Ali Mustafa\nEE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).",
     "crumbs": [
       "Home",
       "Course Info",
@@ -53,20 +53,8 @@
     "objectID": "index.html#announcements",
     "href": "index.html#announcements",
     "title": "EE380: Control Systems",
-    "section": "",
-    "text": "Welcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "EE380: Control Systems"
-    ]
-  },
-  {
-    "objectID": "index.html#course-logistics",
-    "href": "index.html#course-logistics",
-    "title": "EE380: Control Systems",
-    "section": "",
-    "text": "Details\n\n\n\n\nLectures\nMon/Wed 10:30 AM - 11:50 AM (Room 320-105)\n\n\nOffice Hours\nTue 2:00 PM - 4:00 PM (Packard 202)\n\n\nMidterm\nFeb 25, 2026 (In Class)\n\n\nFinal\nMar 20, 2026 (7:00 PM - 10:00 PM)",
+    "section": "Announcements",
+    "text": "Announcements\n\nWeek 2: HW1 is posted.\n\nPlease check the Homework page for HW1.\n\n\n\nWeek 1: Getting Started\nWelcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.",
     "crumbs": [
       "Home",
       "Course Info",
