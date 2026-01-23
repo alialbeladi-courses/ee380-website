@@ -102,7 +102,7 @@
     "href": "index.html#announcements",
     "title": "EE380: Control Systems",
     "section": "Announcements",
-    "text": "Announcements\n\nWeek 2: HW1 is posted.\n\nPlease check the Homework page for HW1.\n\n\n\nWeek 1: Getting Started\nWelcome to the course! Please review the Syllabus and install Python if you plan to run simulations locally. The first homework is posted.",
+    "text": "Announcements\n\nWeek 2: HW1 is posted.\n\nPlease check the Homework page for HW1.\n\n\n\nWeek 1: Getting Started\nWelcome to the course! Please review the Syllabus and install Matlab/Simulink and Python if you plan to run simulations locally.",
     "crumbs": [
       "Home",
       "Course Info",
