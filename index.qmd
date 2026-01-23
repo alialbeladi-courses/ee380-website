@@ -19,7 +19,7 @@ EE380 introduces the analysis and design of feedback control systems. We will co
 * Please check the [Homework page](homework.qmd) for HW1.
 
 ### Week 1: Getting Started
-*Welcome to the course!* Please review the [Syllabus](policy.qmd) and install Python if you plan to run simulations locally. The first homework is posted.
+*Welcome to the course!* Please review the [Syllabus](policy.qmd) and install Matlab/Simulink and Python if you plan to run simulations locally.
 
 ---
 
