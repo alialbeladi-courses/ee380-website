@@ -18,7 +18,7 @@
     "href": "homework.html",
     "title": "Homework",
     "section": "",
-    "text": "Assignments are due by 11:59 PM via Gradescope (Entry Code: D684VR).\nRead about how to submit assignments on Gradescope here. Some pointers:",
+    "text": "NoteSubmission\n\n\n\nAssignments are due by 11:59 PM (Asia/Riyadh) and submitted on Gradescope.\nOpen Gradescope Entry code: D684VR",
     "crumbs": [
       "Home",
       "Assignments",
@@ -26,11 +26,11 @@
     ]
   },
   {
-    "objectID": "homework.html#late-day-policy",
-    "href": "homework.html#late-day-policy",
+    "objectID": "homework.html#assignments",
+    "href": "homework.html#assignments",
     "title": "Homework",
-    "section": "Late Day Policy",
-    "text": "Late Day Policy\nYou will have a total of 6 late days to use on homework assignments with a maximum of 2 late days on a single assignment. Each late day can be treated as a 24-hr extension; e.g., if the assignment is due Wednesday at 11:59 pm, you may hand it in by Thursday at 11:59 pm and use one late day, or by Friday at 11:59 pm and use two late days. You are responsible for keeping track of your late days. No credit will be given for homework turned in after 48 hours past the due date, or for late homework after all late days have been used.",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\nAssignment\nRelease\nDue\nFiles\n\n\n\n\nHW 1\nJan 23\nJan 31\nHW1 PDF\n\n\nHW 2\nTBA\nTBA\n—\n\n\nHW 3\nTBA\nTBA\n—\n\n\n\n\n\n\n\n\n\nTipQuick checklist (Gradescope)\n\n\n\n\nSubmit one PDF (clear scans, high contrast).\nStart each question on a new page (recommended).\nUse Gradescope’s tool to map pages → questions.\nIf the grader cannot read it, they may request a resubmission or deduct points.\nFor multi-page answers, link all relevant pages to that question.\n\n\n\nNeed help submitting? See Gradescope’s student guide: How to submit variable-length assignments",
     "crumbs": [
       "Home",
       "Assignments",
@@ -38,35 +38,11 @@
     ]
   },
   {
-    "objectID": "homework.html#collaboration-policy-and-honor-code",
-    "href": "homework.html#collaboration-policy-and-honor-code",
+    "objectID": "homework.html#policies",
+    "href": "homework.html#policies",
     "title": "Homework",
-    "section": "Collaboration Policy and Honor Code",
-    "text": "Collaboration Policy and Honor Code\nStudents must work individually on all homework assignments. We encourage you to have high-level discussions with other students in the class about the assignments, however, we require that when you turn in an assignment, it is only your work. That is, copying any part of another student’s assignment is strictly prohibited. You are free to reuse small snippets of example code found on the Internet (e.g. via StackOverflow) provided that it is attributed.",
-    "crumbs": [
-      "Home",
-      "Assignments",
-      "Homework"
-    ]
-  },
-  {
-    "objectID": "homework.html#generative-ai-tools-policy",
-    "href": "homework.html#generative-ai-tools-policy",
-    "title": "Homework",
-    "section": "Generative AI Tools Policy:",
-    "text": "Generative AI Tools Policy:\nIn this course, every element of class assignments must be fully prepared by the student. The use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism – unless it is permitted and announced by the instructor.",
-    "crumbs": [
-      "Home",
-      "Assignments",
-      "Homework"
-    ]
-  },
-  {
-    "objectID": "homework.html#regrade-policy",
-    "href": "homework.html#regrade-policy",
-    "title": "Homework",
-    "section": "Regrade Policy",
-    "text": "Regrade Policy\nYou may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes:\n\nWe reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.\nLegitimate regrade requests include:\n\nThe points were not added correctly.\nThe comments say I’m missing part (c), but it was actually on a different page.\nThe comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case.\n\nIllegitimate regrade requests include:\n\nI disagree with the rubric; I should have gotten more partial credit for my solution.\nI understand that my solution wasn’t clear, but what I meant to say was correct.",
+    "section": "Policies",
+    "text": "Policies\n\n\n\n\n\n\nWarningLate days\n\n\n\nYou have 6 late days total, with a maximum of 2 late days per assignment.\nEach late day is a 24-hour extension (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).\nNo credit is given after 48 hours past the deadline, or after late days are exhausted.\n\n\n\n\nCollaboration policy and honor code\nStudents must work individually on all homework assignments.\nYou may have high-level discussions with classmates, but anything you submit must be your own work.\nYou may reuse small snippets of publicly available code (e.g., StackOverflow) only if properly attributed.\n\n\nGenerative AI tools policy\nIn this course, every element of class assignments must be fully prepared by the student.\nThe use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism — unless it is explicitly permitted and announced by the instructor.\n\n\nRegrade policy\nRegrade requests are submitted through Gradescope. Include a clear explanation of the grading error.\n\nDeadline: within 1 week of receiving your grade, by 11:59 PM.\nWe may regrade the entire assignment (your score may go up or down).\n\nLegitimate requests - Points were added incorrectly. - The answer exists but was on a different page. - The grader claims a specific case fails, but your implementation works for that case.\nIllegitimate requests - Disagreeing with the rubric / asking for more partial credit without an error. - “My solution wasn’t clear, but what I meant was correct.”",
     "crumbs": [
       "Home",
       "Assignments",
