@@ -1,26 +1,62 @@
 ---
 title: "EE380: Control Systems"
 format: html
+toc: false
 ---
 
-**Spring 2026** | **Instructor:** Dr. Ali AlBeladi and Ali Mustafa 
-
-EE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).
-
-::: {.callout-note}
-## Fast Links
-*   [**Syllabus**](policy.qmd) - Grading and course policies
-*   [**Calendar**](calendar.qmd) - Weekly schedule and slides
-*   [**Homework**](homework.qmd) - Assignments and solutions
+::: {.callout-note appearance="minimal"}
+# EE380 — Control Systems
+**Spring 2026** · **Instructor:** Dr. Ali AlBeladi & Ali Mustafa  
+Build intuition and design skills for feedback control using real engineering examples.
 :::
 
-## Announcements
-### Week 2: HW1 is posted.
-* Please check the [Homework page](homework.qmd) for HW1.
+::: {.columns}
+::: {.column width="60%"}
+## Start here
 
-### Week 1: Getting Started
-*Welcome to the course!* Please review the [Syllabus](policy.qmd) and install Matlab/Simulink and Python if you plan to run simulations locally.
+**What to do before the first lecture**
+- Read the [Syllabus](policy.qmd) (grading, exam rules, late policy)
+- Check the [Calendar](calendar.qmd) for this week’s slides + topics
+- Bookmark the [Homework](homework.qmd) page (all deadlines live there)
+- Install **MATLAB/Simulink** (recommended) and **Python** (optional for demos)
+
+::: {.callout-important appearance="minimal"}
+### Where to look for updates
+This website is the **single source of truth** for announcements, schedule updates, and deadlines.
+:::
+:::
+
+::: {.column width="40%"}
+## Quick links
+
+[📘 Syllabus](policy.qmd){.btn .btn-primary .btn-lg .d-block .mb-2}
+[📅 Calendar](calendar.qmd){.btn .btn-outline-primary .btn-lg .d-block .mb-2}
+[📝 Homework](homework.qmd){.btn .btn-outline-primary .btn-lg .d-block .mb-3}
+
+::: {.callout-note appearance="minimal"}
+### This week
+- Topic: *Modeling + Intro to Feedback*
+- Deliverable: **HW1** (see Homework page)
+- Reading: listed on the Calendar
+:::
+:::
+:::
 
 ---
 
+## Announcements
 
+::: {.card .mb-3}
+::: {.card-body}
+### Week 2 — HW1 is posted
+Please check the [Homework page](homework.qmd) for HW1 details and the due date/time.
+:::
+:::
+
+::: {.card .mb-3}
+::: {.card-body}
+### Week 1 — Getting started
+Welcome to the course! Please review the [Syllabus](policy.qmd) and install MATLAB/Simulink.  
+Python is optional unless you want to run local simulations.
+:::
+:::
