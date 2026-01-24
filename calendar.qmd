@@ -5,7 +5,6 @@ toc: true
 ---
 
 This is the official course schedule. Slides/notes are typically posted **before each lecture**.
-Deadlines are listed in **local time (Asia/Riyadh)**.
 
 ---
 
