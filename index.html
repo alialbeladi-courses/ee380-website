@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -373,19 +373,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#announcements" id="toc-announcements" class="nav-link active" data-scroll-target="#announcements">Announcements</a>
-  <ul class="collapse">
-  <li><a href="#week-2-hw1-is-posted." id="toc-week-2-hw1-is-posted." class="nav-link" data-scroll-target="#week-2-hw1-is-posted.">Week 2: HW1 is posted.</a></li>
-  <li><a href="#week-1-getting-started" id="toc-week-1-getting-started" class="nav-link" data-scroll-target="#week-1-getting-started">Week 1: Getting Started</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -409,40 +397,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Spring 2026</strong> | <strong>Instructor:</strong> Dr.&nbsp;Ali AlBeladi and Ali Mustafa</p>
-<p>EE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Fast Links
+<span class="screen-reader-only">Note</span>EE380 — Control Systems
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Spring 2026</strong> · <strong>Instructor:</strong> Dr.&nbsp;Ali AlBeladi &amp; Ali Mustafa<br>
+Build intuition and design skills for feedback control using real engineering examples.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:60%;">
+<section id="start-here" class="level2">
+<h2 class="anchored" data-anchor-id="start-here">Start here</h2>
+<p><strong>What to do before the first lecture</strong> - Read the <a href="./policy.html">Syllabus</a> (grading, exam rules, late policy) - Check the <a href="./calendar.html">Calendar</a> for this week’s slides + topics - Bookmark the <a href="./homework.html">Homework</a> page (all deadlines live there) - Install <strong>MATLAB/Simulink</strong> (recommended) and <strong>Python</strong> (optional for demos)</p>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Where to look for updates
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This website is the <strong>single source of truth</strong> for announcements, schedule updates, and deadlines.</p>
+</div>
+</div>
+</section>
+</div><div class="column" style="width:40%;">
+<section id="quick-links" class="level2">
+<h2 class="anchored" data-anchor-id="quick-links">Quick links</h2>
+<p><a href="./policy.html" class="btn btn-primary btn-lg d-block mb-2">📘 Syllabus</a> <a href="./calendar.html" class="btn btn-outline-primary btn-lg d-block mb-2">📅 Calendar</a> <a href="./homework.html" class="btn btn-outline-primary btn-lg d-block mb-3">📝 Homework</a></p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>This week
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><a href="./policy.html"><strong>Syllabus</strong></a> - Grading and course policies</li>
-<li><a href="./calendar.html"><strong>Calendar</strong></a> - Weekly schedule and slides</li>
-<li><a href="./homework.html"><strong>Homework</strong></a> - Assignments and solutions</li>
+<li>Topic: <em>Modeling + Intro to Feedback</em></li>
+<li>Deliverable: <strong>HW1</strong> (see Homework page)</li>
+<li>Reading: listed on the Calendar</li>
 </ul>
 </div>
 </div>
+</section>
+</div>
+</div>
+<hr>
 <section id="announcements" class="level2">
 <h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
-<section id="week-2-hw1-is-posted." class="level3">
-<h3 class="anchored" data-anchor-id="week-2-hw1-is-posted.">Week 2: HW1 is posted.</h3>
-<ul>
-<li>Please check the <a href="./homework.html">Homework page</a> for HW1.</li>
-</ul>
+<div class="card mb-3">
+<section id="week-2-hw1-is-posted" class="level3 card-body">
+<h3 class="anchored" data-anchor-id="week-2-hw1-is-posted">Week 2 — HW1 is posted</h3>
+<p>Please check the <a href="./homework.html">Homework page</a> for HW1 details and the due date/time.</p>
 </section>
-<section id="week-1-getting-started" class="level3">
-<h3 class="anchored" data-anchor-id="week-1-getting-started">Week 1: Getting Started</h3>
-<p><em>Welcome to the course!</em> Please review the <a href="./policy.html">Syllabus</a> and install Matlab/Simulink and Python if you plan to run simulations locally.</p>
-<hr>
+</div>
+<div class="card mb-3">
+<section id="week-1-getting-started" class="level3 card-body">
+<h3 class="anchored" data-anchor-id="week-1-getting-started">Week 1 — Getting started</h3>
+<p>Welcome to the course! Please review the <a href="./policy.html">Syllabus</a> and install MATLAB/Simulink.<br>
+Python is optional unless you want to run local simulations.</p>
+</section>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -90,7 +90,31 @@
     "href": "index.html",
     "title": "EE380: Control Systems",
     "section": "",
-    "text": "Spring 2026 | Instructor: Dr. Ali AlBeladi and Ali Mustafa\nEE380 introduces the analysis and design of feedback control systems. We will cover modeling of physical systems, stability analysis, and controller design techniques (PID, Root Locus, Bode Plots).",
+    "text": "NoteEE380 — Control Systems\n\n\n\nSpring 2026 · Instructor: Dr. Ali AlBeladi & Ali Mustafa\nBuild intuition and design skills for feedback control using real engineering examples.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "EE380: Control Systems",
+    "section": "Start here",
+    "text": "Start here\nWhat to do before the first lecture - Read the Syllabus (grading, exam rules, late policy) - Check the Calendar for this week’s slides + topics - Bookmark the Homework page (all deadlines live there) - Install MATLAB/Simulink (recommended) and Python (optional for demos)\n\n\n\n\n\n\nImportantWhere to look for updates\n\n\n\nThis website is the single source of truth for announcements, schedule updates, and deadlines.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "EE380: Control Systems",
+    "section": "Quick links",
+    "text": "Quick links\n📘 Syllabus 📅 Calendar 📝 Homework\n\n\n\n\n\n\nNoteThis week\n\n\n\n\nTopic: Modeling + Intro to Feedback\nDeliverable: HW1 (see Homework page)\nReading: listed on the Calendar",
     "crumbs": [
       "Home",
       "Course Info",
@@ -102,7 +126,7 @@
     "href": "index.html#announcements",
     "title": "EE380: Control Systems",
     "section": "Announcements",
-    "text": "Announcements\n\nWeek 2: HW1 is posted.\n\nPlease check the Homework page for HW1.\n\n\n\nWeek 1: Getting Started\nWelcome to the course! Please review the Syllabus and install Matlab/Simulink and Python if you plan to run simulations locally.",
+    "text": "Announcements\n\n\nWeek 2 — HW1 is posted\nPlease check the Homework page for HW1 details and the due date/time.\n\n\n\n\nWeek 1 — Getting started\nWelcome to the course! Please review the Syllabus and install MATLAB/Simulink.\nPython is optional unless you want to run local simulations.",
     "crumbs": [
       "Home",
       "Course Info",
