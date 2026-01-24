@@ -166,7 +166,31 @@
     "href": "calendar.html",
     "title": "Schedule & Materials",
     "section": "",
-    "text": "Detailed course schedule. Slides and notes will be posted here before each lecture.\n\nWeekly Schedule\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\n1\nJan 11\nOverview Introduction to Control\nSlides (PDF) \n\n\n\n\nJan 13\nDynamic SystemsDifferential Equations\nSlides (PDF) \n\n\n\n\nJan 15\nLaplace Transform ReviewDiff Eqs, Laplace Transforms\nSlides (PDF) \n\n\n\n2\nJan 18\nLaplace Transform ReviewLaplace Transforms\nSlides (PDF) \n\n\n\n\nJan 20\nModellingModelling DC Motor\nSlides (PDF)\n\n\n\n\nJan 22\nModellingModelling Mechanical Systems, Block Diagrams\nSlides (PDF)\nHW 1 Out",
+    "text": "This is the official course schedule. Slides/notes are typically posted before each lecture. Deadlines are listed in local time (Asia/Riyadh).",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-1",
+    "href": "calendar.html#week-1",
+    "title": "Schedule & Materials",
+    "section": "Week 1",
+    "text": "Week 1\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nJan 11\nCourse overview · Introduction to control\nSlides (PDF)\n\n\n\nJan 13\nDynamic systems · Differential equations\nSlides (PDF)\n\n\n\nJan 15\nLaplace review · Diff eqs → Laplace transforms\nSlides (PDF)",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-2",
+    "href": "calendar.html#week-2",
+    "title": "Schedule & Materials",
+    "section": "Week 2",
+    "text": "Week 2\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nJan 18\nLaplace review (cont.) · Properties and examples\nSlides (PDF)\n\n\n\nJan 20\nModeling · DC motor modeling\nSlides (PDF)\n\n\n\nJan 22\nModeling · Mechanical systems, block diagrams\nSlides (PDF)\nHW1 out\n\n\n\n\n\n\n\n\n\nNoteNotes\n\n\n\n\nIf a slide link does not open, make sure you are logged in with your KFUPM account in the browser.\nThe schedule may be adjusted; updates will be posted on the Home → Announcements section.",
     "crumbs": [
       "Home",
       "Schedule",
