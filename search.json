@@ -54,7 +54,43 @@
     "href": "policy.html",
     "title": "Course Policy",
     "section": "",
-    "text": "Grading Scheme\n\n\n\nComponent\nWeight\nNotes\n\n\n\n\nClasswork\n25%\nAssignments, Quizes, Project\n\n\nMajor Exams\n40%\nTBA\n\n\nFinal Exam\n35%\nTBA\n\n\n\n\n\nCollaboration Policy\nYou are encouraged to discuss problem sets with classmates, but you must write up your own solutions. Copying code or derivations is not allowed.\n\n\nResources\n\nTextbook (Main): R Dorf and R Bishop, Modern Control System, Prentice-Hall, 13th Edition, 2017\nTextbook (optional): Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, (8th Ed).\nSoftware: We will use Matlab/Simulink for computational assignments and and Python in some cases.",
+    "text": "NoteEE380 Course Policy\n\n\n\nThis page summarizes grading, collaboration rules, and course resources.\nUpdates will be reflected here throughout the semester.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#grading",
+    "href": "policy.html#grading",
+    "title": "Course Policy",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\n\n\nImportantGrading scheme (overview)\n\n\n\n\n\n\n\n\n\n\n\nComponent\nWeight\nWhat it includes\n\n\n\n\nClasswork\n25%\nHomework, quizzes, in-class activities (and project, if assigned)\n\n\nMajor exams\n40%\nTBA (will be announced early in the semester)\n\n\nFinal exam\n35%\nTBA (university schedule)\n\n\n\n\n\n\n\n\n\n\n\nNote: Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#academic-integrity-and-collaboration",
+    "href": "policy.html#academic-integrity-and-collaboration",
+    "title": "Course Policy",
+    "section": "Academic integrity and collaboration",
+    "text": "Academic integrity and collaboration\n\n\n\n\n\n\nWarningWhat is allowed vs not allowed\n\n\n\n✅ Allowed - Discussing concepts and approaches at a high level with classmates\n- Using course notes and posted examples\n- Studying together\n❌ Not allowed - Copying any part of another student’s written solution\n- Copying code, derivations, or calculations (even if you “understand it”)\n- Submitting work that is not fully your own\n\n\nIf you collaborate, your submitted work must be written independently and reflect your own understanding.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#resources",
+    "href": "policy.html#resources",
+    "title": "Course Policy",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nTextbooks\n\nMain: R. Dorf & R. Bishop, Modern Control Systems, 13th ed. (2017)\nOptional: Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.\n\n\n\n\nSoftware\n\nMATLAB/Simulink for computational work\nPython may be used for selected demos or optional simulations\n\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nIf you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.\nThe Calendar page will list the specific topics to review when needed.",
     "crumbs": [
       "Home",
       "Course Info",
