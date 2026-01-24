@@ -1,48 +1,78 @@
 ---
 title: "Homework"
 format: html
+toc: true
 ---
 
-Assignments are due by **11:59 PM** via [Gradescope](https://www.gradescope.com/courses/1238257) (Entry Code: D684VR).
-
-**Read** about how to submit assignments on Gradescope [here](https://help.gradescope.com/article/ccbpppziu9-student-submit-work#variable_length_submissions). Some pointers:
-
-*   Make sure your written work is clear and easy to read. If the TA cannot read your work, he cannot grade it. He may ask you to resubmit, or take points off.
-*   Do upload high quality PDF scans; most modern smartphones have a document scanning functionality.
-*   Make sure to use the tools in Gradescope to mark where in your upload the answer to each question can be found.
-*   One good practice is to start each question on a new page.
-*   For a multi-page answer, associate all relevant pages with the question.
-
-| Assignment | Release Date | Due Date | Files |
-|:----------:|--------------|----------|-------|
-| **HW 1** | Jan 23 | Jan 31 | [PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBtk1cqas2KQacr9g7oKwf7AcNyJRxjGP6lFAqEthUVwUU?e=Doxmsc)  |
-| **HW 2** |  |  |  | 
-| **HW 3** |  | |   | 
-
-::: {.callout-tip}
-## Submission Guidelines
-Please submit a single PDF file containing your written work and any relevant code snippets.
+::: {.callout-note appearance="minimal"}
+## Submission
+Assignments are due by **11:59 PM (Asia/Riyadh)** and submitted on Gradescope.  
+[Open Gradescope](https://www.gradescope.com/courses/1238257){.btn .btn-primary .btn-sm}
+**Entry code:** `D684VR`
 :::
 
-## Late Day Policy
-You will have a total of 6 late days to use on homework assignments with a maximum of 2 late days on a single assignment. Each late day can be treated as a 24-hr extension; e.g., if the assignment is due Wednesday at 11:59 pm, you may hand it in by Thursday at 11:59 pm and use one late day, or by Friday at 11:59 pm and use two late days. You are responsible for keeping track of your late days. No credit will be given for homework turned in after 48 hours past the due date, or for late homework after all late days have been used.
+---
 
-## Collaboration Policy and Honor Code
-Students must work individually on all homework assignments. We encourage you to have high-level discussions with other students in the class about the assignments, however, we require that when you turn in an assignment, it is only your work. That is, copying any part of another student’s assignment is strictly prohibited. You are free to reuse small snippets of example code found on the Internet (e.g. via StackOverflow) provided that it is attributed.
+## Assignments
 
-## Generative AI Tools Policy: 
-In this course, every element of class assignments must be fully prepared by the student. The use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism – unless it is permitted and announced by the instructor.
+| Assignment | Release | Due | Files |
+|---|---:|---:|---|
+| **HW 1** | Jan 23 | Jan 31 | [HW1 PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBtk1cqas2KQacr9g7oKwf7AcNyJRxjGP6lFAqEthUVwUU?e=Doxmsc){.btn .btn-sm .btn-outline-primary} |
+| **HW 2** | TBA | TBA | — |
+| **HW 3** | TBA | TBA | — |
 
-## Regrade Policy
-You may submit a regrade request for homework on Gradescope. Please include a thorough description of the error that the grader made. You must submit a regrade request within 1 week of receiving your grade, by end of day (i.e. 11:59 pm). Some notes:
+::: {.callout-tip appearance="minimal"}
+### Quick checklist (Gradescope)
+- Submit **one PDF** (clear scans, high contrast).
+- Start **each question on a new page** (recommended).
+- Use Gradescope’s tool to map **pages → questions**.
+- If the grader cannot read it, they may request a resubmission or deduct points.
+- For multi-page answers, link **all relevant pages** to that question.
+:::
 
-*   We reserve the right to regrade the entire assignment on a regrade request. This means you may lose more points on other problems if we discover grading errors in the other direction.
-*   Legitimate regrade requests include:
-    *   The points were not added correctly.
-    *   The comments say I’m missing part (c), but it was actually on a different page.
-    *   The comments say that my algorithm is incorrect with this particular case, but I implemented my algorithm and it does work in that case.
-*   Illegitimate regrade requests include:
-    *   I disagree with the rubric; I should have gotten more partial credit for my solution.
-    *   I understand that my solution wasn’t clear, but what I meant to say was correct.
+Need help submitting? See Gradescope’s student guide:
+[How to submit variable-length assignments](https://help.gradescope.com/article/ccbpppziu9-student-submit-work#variable_length_submissions)
 
+---
 
+## Policies
+
+::: {.callout-warning appearance="minimal"}
+### Late days
+You have **6 late days** total, with a maximum of **2 late days per assignment**.  
+Each late day is a **24-hour extension** (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).  
+No credit is given after **48 hours** past the deadline, or after late days are exhausted.
+:::
+
+::: {.accordion}
+::: {.accordion-item}
+### Collaboration policy and honor code
+Students must work **individually** on all homework assignments.  
+You may have **high-level discussions** with classmates, but anything you submit must be your own work.
+
+You may reuse small snippets of publicly available code (e.g., StackOverflow) **only if properly attributed**.
+:::
+
+::: {.accordion-item}
+### Generative AI tools policy
+In this course, every element of class assignments must be fully prepared by the student.  
+The use of generative AI tools for any part of your work is **not allowed** and will be treated as plagiarism — **unless** it is explicitly permitted and announced by the instructor.
+:::
+
+::: {.accordion-item}
+### Regrade policy
+Regrade requests are submitted through Gradescope. Include a clear explanation of the grading error.
+
+- Deadline: within **1 week** of receiving your grade, by **11:59 PM**.
+- We may regrade the entire assignment (your score may go **up or down**).
+
+**Legitimate requests**
+- Points were added incorrectly.
+- The answer exists but was on a different page.
+- The grader claims a specific case fails, but your implementation works for that case.
+
+**Illegitimate requests**
+- Disagreeing with the rubric / asking for more partial credit without an error.
+- “My solution wasn’t clear, but what I meant was correct.”
+:::
+:::
