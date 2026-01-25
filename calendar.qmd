@@ -24,7 +24,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **Jan 18** | **Laplace review (cont.)** · Properties and examples | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_18_Laplace%20Review%202.pdf?csf=1&web=1&e=T1nSNo){.btn .btn-sm .btn-outline-primary} |  |
 | **Jan 20** | **Modeling** · DC motor modeling | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_20_Dynamic%20Modelling%20II.pdf?csf=1&web=1&e=SO0ldl){.btn .btn-sm .btn-outline-primary} |  |
-| **Jan 22** | **Modeling** · Mechanical systems, block diagrams | [Slides (PDF)](){.btn .btn-sm .btn-outline-secondary .disabled role="button" aria-disabled="true"} | [HW1 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Jan 22** | **Modeling** · Mechanical systems, block diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAe1tqyVfGGSLjLO40Qi5GjAXsblzWSI3xrv5jSZUVpg84?e=EBoqrd){.btn .btn-sm .btn-outline-secondary} | [HW1 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Jan 25** | **Modeling** · Mechanical systems, block diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=dvIUQW){.btn .btn-sm .btn-outline-secondary} | |
 
 ::: {.callout-note appearance="minimal"}
 ### Notes
