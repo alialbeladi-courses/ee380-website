@@ -17,7 +17,7 @@ Assignments are due by **11:59 PM (Asia/Riyadh)** and submitted on Gradescope.
 
 | Assignment | Release | Due | Files |
 |---|---:|---:|---|
-| **HW 1** | Jan 23 | Jan 31 | [HW1 PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBtk1cqas2KQacr9g7oKwf7AcNyJRxjGP6lFAqEthUVwUU?e=Doxmsc){.btn .btn-sm .btn-outline-primary} |
+| **HW 1** | Jan 23 | Jan 31 | [HW1 PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA4ZUfDfrueTpZLQTdVY9GeAbEdrGHXexX9DdatEQxjrd4?e=P7xmeG){.btn .btn-sm .btn-outline-primary} |
 | **HW 2** | TBA | TBA | — |
 | **HW 3** | TBA | TBA | — |
 
