@@ -4,14 +4,21 @@
     "href": "modules/sim_step.html",
     "title": "Simulation: Step Response",
     "section": "",
-    "text": "This is a placeholder for the interactive step response simulation.\nNote: To enable interactivity, we will need to install the quarto-pyodide extension.\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Simulation code will go here\nprint(\"Hello from Pyodide!\")"
+    "text": "This module demonstrates two ways to add interactivity to your course notes."
   },
   {
-    "objectID": "modules/sim_step.html#step-response",
-    "href": "modules/sim_step.html#step-response",
+    "objectID": "modules/sim_step.html#virtual-lab-shinylive",
+    "href": "modules/sim_step.html#virtual-lab-shinylive",
     "title": "Simulation: Step Response",
-    "section": "",
-    "text": "This is a placeholder for the interactive step response simulation.\nNote: To enable interactivity, we will need to install the quarto-pyodide extension.\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# Simulation code will go here\nprint(\"Hello from Pyodide!\")"
+    "section": "1. Virtual Lab (Shinylive)",
+    "text": "1. Virtual Lab (Shinylive)\nThis specific app runs entirely in your browser. It visualizes the step response of a second-order system. Students can manipulate the Damping Ratio (\\(\\zeta\\)) and Natural Frequency (\\(\\omega_n\\)) to see the effect on overshoot and settling time.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 500\nfrom shiny import App, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"zeta\", \"Damping Ratio (ζ)\", 0.0, 2.0, 0.4, step=0.1),\n            ui.input_slider(\"omega\", \"Natural Freq (ωn)\", 1.0, 10.0, 3.0),\n        ),\n        ui.output_plot(\"plot\")\n    )\n)\n\ndef server(input, output, session):\n    @output\n    @ui.render.plot\n    def plot():\n        t = np.linspace(0, 10, 500)\n        zeta = input.zeta()\n        wn = input.omega()\n        \n        # Step response for 2nd order system: G(s) = wn^2 / (s^2 + 2*zeta*wn*s + wn^2)\n        plt.figure(figsize=(10, 6))\n        \n        # Avoid division by zero\n        if wn == 0: wn = 0.01\n        \n        # 1. Undamped (zeta = 0)\n        if zeta == 0:\n            y = 1 - np.cos(wn * t)\n            \n        # 2. Underdamped (0 &lt; zeta &lt; 1)\n        elif zeta &lt; 1.0:\n            wd = wn * np.sqrt(1 - zeta**2)\n            phi = np.arctan(np.sqrt(1 - zeta**2) / zeta)\n            y = 1 - (1 / np.sqrt(1 - zeta**2)) * np.exp(-zeta * wn * t) * np.sin(wd * t + phi)\n            \n        # 3. Critically Damped (zeta = 1)\n        elif zeta == 1.0:\n            y = 1 - (1 + wn * t) * np.exp(-wn * t)\n            \n        # 4. Overdamped (zeta &gt; 1)\n        else:\n            p1 = -zeta * wn + wn * np.sqrt(zeta**2 - 1)\n            p2 = -zeta * wn - wn * np.sqrt(zeta**2 - 1)\n            y = 1 + (p2 * np.exp(p1 * t) - p1 * np.exp(p2 * t)) / (p1 - p2)\n\n        plt.plot(t, y, lw=2, label='Response')\n        plt.axhline(1, color='gray', linestyle='--', alpha=0.5, label='Target')\n        plt.title(f\"Step Response (ζ={zeta}, ωn={wn})\")\n        plt.xlabel(\"Time (s)\")\n        plt.ylabel(\"Amplitude\")\n        plt.grid(True, alpha=0.3)\n        plt.ylim(-0.5, 2.0)\n        plt.legend()\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "modules/sim_step.html#live-calculation-pyodide",
+    "href": "modules/sim_step.html#live-calculation-pyodide",
+    "title": "Simulation: Step Response",
+    "section": "2. Live Calculation (Pyodide)",
+    "text": "2. Live Calculation (Pyodide)\nFor homework problems, students can write run this code directly. Try changing the values below and running it again.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "homework.html",
@@ -202,7 +209,19 @@
     "href": "calendar.html#week-2",
     "title": "Schedule & Materials",
     "section": "Week 2",
-    "text": "Week 2\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nJan 18\nLaplace review (cont.) · Properties and examples\nSlides (PDF)\n\n\n\nJan 20\nModeling · DC motor modeling\nSlides (PDF)\n\n\n\nJan 22\nModeling · Mechanical systems\nSlides (PDF)\nHW1 out\n\n\nJan 25\nModeling · Block Diagrams\nSlides (PDF)\n\n\n\n\n\n\n\n\n\n\nNoteNotes\n\n\n\n\nIf a slide link does not open, make sure you are logged in with your KFUPM account in the browser.\nThe schedule may be adjusted; updates will be posted on the Home → Announcements section.",
+    "text": "Week 2\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nJan 18\nLaplace review (cont.) · Properties and examples\nSlides (PDF)\n\n\n\nJan 20\nModeling · DC motor modeling\nSlides (PDF)\n\n\n\nJan 22\nModeling · Mechanical systems\nSlides (PDF)\nHW1 out",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-3",
+    "href": "calendar.html#week-3",
+    "title": "Schedule & Materials",
+    "section": "Week 3",
+    "text": "Week 3\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nJan 25\nModeling · Block Diagrams\nSlides (PDF)\n\n\n\nJan 27\nModeling · L27\nSlides (PDF)\n\n\n\nJan 29\nModeling · L29\nSlides (PDF)\n\n\n\n\n\n\n\n\n\n\nNoteNotes\n\n\n\n\nIf a slide link does not open, make sure you are logged in with your KFUPM account in the browser.\nThe schedule may be adjusted; updates will be posted on the Home → Announcements section.",
     "crumbs": [
       "Home",
       "Schedule",
