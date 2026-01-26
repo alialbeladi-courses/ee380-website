@@ -33,8 +33,6 @@ This is the official course schedule. Slides/notes are typically posted **before
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
 | **Jan 25** | **Modeling** · Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=dvIUQW){.btn .btn-sm .btn-outline-primary} | |
-| **Jan 27** | **Modeling** · L_27 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary .disabled role="button" aria-disabled="true"} | |
-| **Jan 29** | **Modeling** · L_29 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary .disabled role="button" aria-disabled="true"} | |
 
 
 ::: {.callout-note appearance="minimal"}
