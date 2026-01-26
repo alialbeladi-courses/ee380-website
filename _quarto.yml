@@ -5,26 +5,29 @@ project:
 website:
   title: "EE380: Control Systems"
   description: "Undergraduate Control Systems Course"
-  site-url: "https://example.com/ee380" 
-  
+  site-url: "https://alialbeladi-courses.github.io/ee380-website"
+
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
       - href: calendar.qmd
-        text: Calendar
+        text: Schedule
       - href: homework.qmd
         text: Homework
       - href: policy.qmd
-        text: Policy
+        text: Policies
     right:
       - icon: github
-        href: https://github.com/username/ee380-website
+        href: https://github.com/alialbeladi-courses/ee380-website
         aria-label: GitHub
 
   sidebar:
-    style: "docked"
+    style: "floating"
     search: true
+    collapse-level: 1
     contents:
       - section: "Course Info"
         contents:
@@ -38,15 +41,21 @@ website:
           - homework.qmd
 
   page-footer:
-    left: "EE380 Control Systems"
-    right: "Powered by [Quarto](https://quarto.org)"
+    border: true
+    left: "EE380 — Control Systems · KFUPM"
+    right:
+      - text: "GitHub"
+        href: https://github.com/alialbeladi-courses/ee380-website
 
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
       dark: darkly
     css: styles.css
     toc: true
+    toc-location: right
     code-copy: true
     highlight-style: github
+    smooth-scroll: true
+    link-external-newwindow: true

@@ -1,21 +1,71 @@
 ---
 title: "Course Policy"
 format: html
+toc: true
 ---
 
-# Grading Scheme
+::: {.callout-note appearance="minimal"}
+## EE380 Course Policy
+This page summarizes grading, collaboration rules, and course resources.  
+Updates will be reflected here throughout the semester.
+:::
 
-| Component | Weight | Notes |
-|-----------|--------|-------|
-| **Homework** | 30% | Weekly assignments, lowest score dropped. |
-| **Midterm** | 30% | In-class, open notes. |
-| **Final Exam** | 40% | Comprehensive. |
+---
 
-# Collaboration Policy
+## Grading
 
-You are encouraged to discuss problem sets with classmates, but you must write up your own solutions. **Copying code or derivations is not allowed.**
+::: {.callout-important appearance="minimal"}
+### Grading scheme (overview)
+| Component | Weight | What it includes |
+|---|---:|---|
+| **Classwork** | **25%** | Homework, quizzes, in-class activities (and project, if assigned) |
+| **Major exams** | **40%** | *TBA (will be announced early in the semester)* |
+| **Final exam** | **35%** | *TBA (university schedule)* |
+:::
 
-# Resources
+::: {.callout-note appearance="minimal"}
+**Note:** Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.
+:::
 
-*   **Textbook:** *Feedback Control of Dynamic Systems*, Franklin, Powell, Emami-Naeini (8th Ed).
-*   **Software:** We will use Python (NumPy, SciPy, Matplotlib) for all computational assignments.
+---
+
+## Academic integrity and collaboration
+
+::: {.callout-warning appearance="minimal"}
+### What is allowed vs not allowed
+✅ **Allowed**
+- Discussing concepts and approaches at a high level with classmates  
+- Using course notes and posted examples  
+- Studying together
+
+❌ **Not allowed**
+- Copying any part of another student’s written solution  
+- Copying code, derivations, or calculations (even if you “understand it”)  
+- Submitting work that is not fully your own
+:::
+
+If you collaborate, your submitted work must be written independently and reflect your own understanding.
+
+---
+
+## Resources
+
+::: {.columns}
+::: {.column width="50%"}
+### Textbooks
+- **Main:** R. Dorf & R. Bishop, *Modern Control Systems*, **13th ed. (2017)**
+- **Optional:** Franklin, Powell, Emami-Naeini, *Feedback Control of Dynamic Systems*, **8th ed.**
+:::
+
+::: {.column width="50%"}
+### Software
+- **MATLAB/Simulink** for computational work
+- **Python** may be used for selected demos or optional simulations
+:::
+:::
+
+::: {.callout-tip appearance="minimal"}
+### Recommendation
+If you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.  
+The Calendar page will list the specific topics to review when needed.
+:::
