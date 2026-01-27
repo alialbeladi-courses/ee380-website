@@ -6,7 +6,7 @@ toc: false
 
 ::: {.callout-note appearance="minimal"}
 # EE380 — Control Systems
-**Spring 2026** · **Instructor:** Dr. Ali AlBeladi & Ali Mustafa (TA Office Hours: Mon & Wed (Teams Confirmation)) 
+**Spring 2026** · **Instructor:** Dr. Ali AlBeladi & Ali Mustafa (TA OH: Mon & Wed (Teams Confirmation)) 
 Build intuition and design skills for feedback control using real engineering examples.
 :::
 
