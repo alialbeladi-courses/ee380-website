@@ -49,7 +49,7 @@ This website is the **single source of truth** for announcements, schedule updat
 ::: {.card .mb-3}
 ::: {.card-body}
 ### Major exams schedule 
-Please refer to the [Course Policy page](policy.qmd) for the major exam dates.
+Please refer to the [Course Policy page](policy.qmd) for the major exams' dates.
 :::
 :::
 
