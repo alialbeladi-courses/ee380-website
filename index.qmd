@@ -26,7 +26,7 @@ This website is the **single source of truth** for announcements, schedule updat
 :::
 :::
 
-::: {.column width="40%"}
+::: {.column width="20%"}
 ## Quick links
 
 [📘 Syllabus](policy.qmd){.btn .btn-primary .btn-lg .d-block .mb-2}
