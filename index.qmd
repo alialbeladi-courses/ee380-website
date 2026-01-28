@@ -29,9 +29,9 @@ This website is the **single source of truth** for announcements, schedule updat
 ::: {.column width="20%"}
 ## Quick links
 
-[📘 Syllabus](policy.qmd){.btn .btn-primary .btn-lg .d-block .mb-2}
-[📅 Calendar](calendar.qmd){.btn .btn-outline-primary .btn-lg .d-block .mb-2}
-[📝 Homework](homework.qmd){.btn .btn-outline-primary .btn-lg .d-block .mb-3}
+[📘 Syllabus](policy.qmd){.btn .btn-primary .btn-sm .d-block .mb-2}
+[📅 Calendar](calendar.qmd){.btn .btn-outline-primary .btn-sm .d-block .mb-2}
+[📝 Homework](homework.qmd){.btn .btn-outline-primary .btn-sm .d-block .mb-3}
 
 ::: {.callout-note appearance="minimal"}
 ### This week
