@@ -12,7 +12,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Jan 11** | **Course overview** · Introduction to control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCLrKx8SV7nRatIEg14Lga3AUlufldg3FP_3wStS32hh2g?e=sqeFIh){.btn .btn-sm .btn-outline-primary} .Reading: 1.1-1.6|  |
+| **Jan 11** | **Course overview** · Introduction to control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCLrKx8SV7nRatIEg14Lga3AUlufldg3FP_3wStS32hh2g?e=sqeFIh){.btn .btn-sm .btn-outline-primary} <br> Reading: 1.1-1.6|  |
 | **Jan 13** | **Dynamic systems** · Differential equations | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_13_Modelling.pdf?csf=1&web=1&e=jcBHV5){.btn .btn-sm .btn-outline-primary} |  |
 | **Jan 15** | **Laplace review** · Diff eqs → Laplace transforms | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/r/personal/albeladi_kfupm_edu_sa/Documents/Teaching/252/EE380/Lectures/01_15_Laplace%20Review.pdf?csf=1&web=1&e=Q3pYxQ){.btn .btn-sm .btn-outline-primary} |  |
 
