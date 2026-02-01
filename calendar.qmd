@@ -34,7 +34,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **Jan 25** | **Modeling** · Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=GBgGlM){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
 | **Jan 27** | **Modeling** · System Response | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
-| **Jan 29** | **Modeling** · L29 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 29** | **Modeling** · L29 | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
 
 
 
