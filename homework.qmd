@@ -17,7 +17,7 @@ Assignments are due by **11:59 PM (Asia/Riyadh)** and submitted on Gradescope.
 
 | Assignment | Release | Due | Files | Solution
 |---|---:|---:|---| --- |
-| **HW 1** | Jan 23 | Jan 31 | [HW1 PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA4ZUfDfrueTpZLQTdVY9GeAbEdrGHXexX9DdatEQxjrd4){.btn .btn-sm .btn-outline-primary} |  [HW1 Sol PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAu0m9K2H8hT5TM3usEmqRVAewjIZGW_5pN8MbhxH9zFN8?e=2qVebZ){.btn .btn-sm .btn-outline-primary} |
+| **HW 1** | Jan 23 | Jan 31 | [HW1 PDF](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA4ZUfDfrueTpZLQTdVY9GeAbEdrGHXexX9DdatEQxjrd4){.btn .btn-sm .btn-outline-primary} |  [HW1 Sol PDF](){.btn .btn-sm .btn-outline-primary} |
 | **HW 2** | TBA | TBA | — | |
 | **HW 3** | TBA | TBA | — | |
 
