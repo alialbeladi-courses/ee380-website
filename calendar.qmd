@@ -43,9 +43,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
 | **Feb 1** | **Closed-Loop Control** · Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
-| **Feb 3** | **Closed-Loop Control** · Sensitivity II | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA9PuAvqZ4MRKDkQHxudkTdAR7DbxqmGrfMF-w92F3cb1o?e=MX8hAf){.btn .btn-sm .btn-outline-primary} | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 3** | **Closed-Loop Control** · Sensitivity II | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA9PuAvqZ4MRKDkQHxudkTdAR7DbxqmGrfMF-w92F3cb1o?e=MX8hAf){.btn .btn-sm .btn-outline-primary} | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
 | **Feb 5** | **5** · L5 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-
 
 
 ::: {.callout-note appearance="minimal"}
