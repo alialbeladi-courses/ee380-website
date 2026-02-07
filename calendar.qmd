@@ -44,7 +44,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **Feb 1** | **Closed-Loop Control** · Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
 | **Feb 3** | **Closed-Loop Control** · Sensitivity II | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA9PuAvqZ4MRKDkQHxudkTdAR7DbxqmGrfMF-w92F3cb1o?e=MX8hAf){.btn .btn-sm .btn-outline-primary} | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
-| **Feb 5** | **5** · L5 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 5** | **Closed-Loop Control** · Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQB6u18u0bg0QJUCGIXIsVVQAdxN7ZKCo2OkKgE9E6qSE24?e=BndHum){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
 
 ## Week 5
 
@@ -52,7 +52,16 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **Feb 8** | **Closed-Loop Control** · L8 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
 | **Feb 10** | **Closed-Loop Control** · L10 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **Feb 12** | **5** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 12** | **Closed-Loop Control** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 6
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **Feb 15** | **Closed-Loop Control** · L8 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
+| **Feb 17** | **Closed-Loop Control** · L10 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |[Quiz 2](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
+| **Feb 19** | **Closed-Loop Control** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
 
 
 ::: {.callout-note appearance="minimal"}
