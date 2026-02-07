@@ -54,6 +54,13 @@ This website is the **single source of truth** for announcements, schedule updat
 
 ::: {.card .mb-3}
 ::: {.card-body}
+### HW2 and Quiz 2
+Please check the [Homework page](homework.qmd) for HW2 details and the due date/time. Also, be informed that quiz 2, on chapter 4, will take place on Feb 17. All the best.
+:::
+:::
+
+::: {.card .mb-3}
+::: {.card-body}
 ### Major exams schedule 
 Please refer to the [Course Policy page](policy.qmd) for the major exams' dates.
 :::
