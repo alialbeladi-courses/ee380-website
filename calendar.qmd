@@ -12,9 +12,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Jan 11** | **Course overview** · Introduction to control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCLrKx8SV7nRatIEg14Lga3AUlufldg3FP_3wStS32hh2g?e=JMTpfS){.btn .btn-sm .btn-outline-primary} <br> Reading: 1.1-1.6|  |
-| **Jan 13** | **Dynamic systems** · Differential equations | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBAQLRx2k-7Rbf7gXkddfpMAXsaswGlkLTVF4pBrJ0QqZM?e=6Tgcy7){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.1-2.2 |  |
-| **Jan 15** | **Laplace review** · Diff eqs → Laplace transforms | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDlLApAhYr2T7zfb10yrI0EAfTePA28dwKQpMarlMUMtLk?e=xOLAW3){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.4 |  |
+| **Jan 11** | **Course overview** <br> Introduction to control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCLrKx8SV7nRatIEg14Lga3AUlufldg3FP_3wStS32hh2g?e=JMTpfS){.btn .btn-sm .btn-outline-primary} <br> Reading: 1.1-1.6|  |
+| **Jan 13** | **Dynamic systems** <br> Differential equations | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBAQLRx2k-7Rbf7gXkddfpMAXsaswGlkLTVF4pBrJ0QqZM?e=6Tgcy7){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.1-2.2 |  |
+| **Jan 15** | **Laplace review** <br> Diff eqs → Laplace transforms | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDlLApAhYr2T7zfb10yrI0EAfTePA28dwKQpMarlMUMtLk?e=xOLAW3){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.4 |  |
 
 ---
 
@@ -22,9 +22,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Jan 18** | **Laplace review (cont.)** · Properties and examples | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCqHmzW8htnQrLEkCE82mGoAVeW57i7yEqLwf51ud7rCdY?e=9j0owZ){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.4|  |
-| **Jan 20** | **Modeling** · DC motor modeling | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCaJUYV0FZwT5nDjchM-4bBAWCPGI4NzXxMyZONF4uhYr0?e=ATweZE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.5|  |
-| **Jan 22** | **Modeling** · Mechanical systems | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAe1tqyVfGGSLjLO40Qi5GjAXsblzWSI3xrv5jSZUVpg84?e=MZCybh){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.3,2.5| [HW1 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Jan 18** | **Laplace review (cont.)** <br> Properties and examples | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCqHmzW8htnQrLEkCE82mGoAVeW57i7yEqLwf51ud7rCdY?e=9j0owZ){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.4|  |
+| **Jan 20** | **Modeling** <br> DC motor modeling | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCaJUYV0FZwT5nDjchM-4bBAWCPGI4NzXxMyZONF4uhYr0?e=ATweZE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.5|  |
+| **Jan 22** | **Modeling** <br> Mechanical systems | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAe1tqyVfGGSLjLO40Qi5GjAXsblzWSI3xrv5jSZUVpg84?e=MZCybh){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.3,2.5| [HW1 out](homework.qmd){.btn .btn-sm .btn-warning} |
 
 ---
 
@@ -32,9 +32,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Jan 25** | **Modeling** · Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=GBgGlM){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
-| **Jan 27** | **Analysis** · Openloop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
-| **Jan 29** | **Analysis** · Feedback Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 25** | **Modeling** <br> Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=GBgGlM){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
+| **Jan 27** | **Analysis** <br> Openloop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 29** | **Analysis** <br> Feedback Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
 
 ---
 
@@ -42,9 +42,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 1** | **Analysis** · Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
-| **Feb 3** | **Quiz + Review** ·  |  | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |co
-| **Feb 5** | **Analysis** · Sensitivity II + Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBD9k48xnKSRa72UwP2XWryAV3ebOoNc8LmJQ0_-Q3lD8Q?e=a9TXd0){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 1** | **Analysis** <br> Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 3** | **Quiz + Review**  |  | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |co
+| **Feb 5** | **Analysis** <br> Sensitivity II + Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBD9k48xnKSRa72UwP2XWryAV3ebOoNc8LmJQ0_-Q3lD8Q?e=a9TXd0){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
 
 ## Week 5
 
