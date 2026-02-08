@@ -33,8 +33,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
 | **Jan 25** | **Modeling** <br> Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=GBgGlM){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
-| **Jan 27** | **Analysis** <br> Openloop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
-| **Jan 29** | **Analysis** <br> Feedback Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 27** | **Analysis** <br> Openloop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} <br> Reading: 4.1-4.2 | |
+| **Jan 29** | **Analysis** <br> Feedback Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} <br> Reading: 4.3 | |
 
 ---
 
@@ -42,9 +42,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 1** | **Analysis** <br> Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
-| **Feb 3** | **Quiz + Review**  |  | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |co
-| **Feb 5** | **Analysis** <br> Sensitivity II + Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBD9k48xnKSRa72UwP2XWryAV3ebOoNc8LmJQ0_-Q3lD8Q?e=a9TXd0){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 1** | **Analysis** <br> Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 4.4, 4.5| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 3** | **Quiz + Review**  |  | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
+| **Feb 5** | **Analysis** <br> Sensitivity II + Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBD9k48xnKSRa72UwP2XWryAV3ebOoNc8LmJQ0_-Q3lD8Q?e=a9TXd0){.btn .btn-sm .btn-outline-primary} <br> Reading: 4.6| [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
 
 ## Week 5
 
