@@ -33,8 +33,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
 | **Jan 25** | **Modeling** · Block Diagrams | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAJxHss2IFMSIsZKCS1v8TMAf4wn8SkstPx9n_IgKgHGNo?e=GBgGlM){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
-| **Jan 27** | **Modeling** · System Response | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
-| **Jan 29** | **Control** · Closed-Loop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 27** | **Analysis** · Openloop Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAx6yZLcZy1RZ_1HuUFxQrrAVDbKsCHNBvdpaJg5Yyb19A?e=mhML1R){.btn .btn-sm .btn-outline-primary} | |
+| **Jan 29** | **Analysis** · Feedback Control | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDbnMSMRZQdSKuqbTCsWAgrAfaAQutdUnvhFTfMWmXIB_g?e=IVr4wz){.btn .btn-sm .btn-outline-primary} | |
 
 ---
 
@@ -42,25 +42,25 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 1** | **Closed-Loop Control** · Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
-| **Feb 3** | **Closed-Loop Control** · Sensitivity II | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQA9PuAvqZ4MRKDkQHxudkTdAR7DbxqmGrfMF-w92F3cb1o?e=MX8hAf){.btn .btn-sm .btn-outline-primary} | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
-| **Feb 5** | **Closed-Loop Control** · Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQB6u18u0bg0QJUCGIXIsVVQAdxN7ZKCo2OkKgE9E6qSE24?e=BndHum){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 1** | **Analysis** · Sensitivity I | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCAlzR-yGcZS4BNLixQtuGPAWdS5AwTuYen4ItSyFxTnNo?e=eFTLgE){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| [HW1 Sol out](homework.qmd){.btn .btn-sm .btn-warning} |
+| **Feb 3** | **Quiz + Review** ·  |  | [Quiz 1](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |co
+| **Feb 5** | **Analysis** · Sensitivity II + Steady State Error​ | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBD9k48xnKSRa72UwP2XWryAV3ebOoNc8LmJQ0_-Q3lD8Q?e=a9TXd0){.btn .btn-sm .btn-outline-primary} | [HW2 out](homework.qmd){.btn .btn-sm .btn-warning} |
 
 ## Week 5
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 8** | **Closed-Loop Control** · L8 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
-| **Feb 10** | **Closed-Loop Control** · L10 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **Feb 12** | **Closed-Loop Control** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 8** | **** · L8 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
+| **Feb 10** | **** · L10 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 12** | **** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 6
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 15** | **Closed-Loop Control** · L15 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
-| **Feb 17** | **Closed-Loop Control** · L17 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |[Quiz 2](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
-| **Feb 19** | **Closed-Loop Control** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 15** | **** · L15 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
+| **Feb 17** | **** · L17 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |[Quiz 2](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
+| **Feb 19** | **** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
 
 
