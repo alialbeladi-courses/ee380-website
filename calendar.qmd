@@ -52,7 +52,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **Feb 8** | **State Space** · Modelling | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDkb7ELfTQhRb4xJop5vZ8jAbw0sdy0p6p6y49X3iUIt-M?e=kcaW9T){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
 | **Feb 10** | **State Space** · Modelling II | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQC7jWW12l5gT6z9eUXqgECrAUqodFjQP2DA9Z_ovC4q-Mc?e=g26VsQ){.btn .btn-sm .btn-outline-primary} | |
-| **Feb 12** | **** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **Feb 12** | **State Space** · Modelling III | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAq3BjvfNzOQL2fZdLdbrooAXUdVAirtHvvM2dlA3Kg7bw?e=lWbtXX){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 6
 
