@@ -21,6 +21,34 @@
     "text": "2. Live Calculation (Pyodide)\nFor homework problems, students can write run this code directly. Try changing the values below and running it again.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
+    "objectID": "INSTRUCTOR_GUIDE.html",
+    "href": "INSTRUCTOR_GUIDE.html",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
     "objectID": "homework.html",
     "href": "homework.html",
     "title": "Homework",
@@ -54,54 +82,6 @@
       "Home",
       "Assignments",
       "Homework"
-    ]
-  },
-  {
-    "objectID": "policy.html",
-    "href": "policy.html",
-    "title": "Course Policy",
-    "section": "",
-    "text": "NoteEE380 Course Policy\n\n\n\nThis page summarizes grading, collaboration rules, and course resources.\nUpdates will be reflected here throughout the semester.",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "Course Policy"
-    ]
-  },
-  {
-    "objectID": "policy.html#grading",
-    "href": "policy.html#grading",
-    "title": "Course Policy",
-    "section": "Grading",
-    "text": "Grading\n\n\n\n\n\n\nImportantGrading scheme (overview)\n\n\n\n\n\n\n\n\n\n\n\nComponent\nWeight\nWhat it includes\n\n\n\n\nClasswork\n25%\nHomework, quizzes, in-class activities (and project, if assigned)\n\n\nMajor exam 1\n20%\nMonday, 23-Feb (Week 7)\n\n\nMajor exam 2\n20%\nTuesday, 12-Apr (Week 13)\n\n\nFinal exam\n35%\nTBA (university schedule)\n\n\n\n\n\n\n\n\n\n\n\nNote: Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "Course Policy"
-    ]
-  },
-  {
-    "objectID": "policy.html#academic-integrity-and-collaboration",
-    "href": "policy.html#academic-integrity-and-collaboration",
-    "title": "Course Policy",
-    "section": "Academic integrity and collaboration",
-    "text": "Academic integrity and collaboration\n\n\n\n\n\n\nWarningWhat is allowed vs not allowed\n\n\n\n✅ Allowed - Discussing concepts and approaches at a high level with classmates\n- Using course notes and posted examples\n- Studying together\n❌ Not allowed - Copying any part of another student’s written solution\n- Copying code, derivations, or calculations (even if you “understand it”)\n- Submitting work that is not fully your own\n\n\nIf you collaborate, your submitted work must be written independently and reflect your own understanding.",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "Course Policy"
-    ]
-  },
-  {
-    "objectID": "policy.html#resources",
-    "href": "policy.html#resources",
-    "title": "Course Policy",
-    "section": "Resources",
-    "text": "Resources\n\n\n\nTextbooks\n\nMain: R. Dorf & R. Bishop, Modern Control Systems, 13th ed. (2017)\nOptional: Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.\n\n\n\n\nSoftware\n\nMATLAB/Simulink for computational work\nPython may be used for selected demos or optional simulations\n\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nIf you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.\nThe Calendar page will list the specific topics to review when needed.",
-    "crumbs": [
-      "Home",
-      "Course Info",
-      "Course Policy"
     ]
   },
   {
@@ -151,34 +131,6 @@
       "Course Info",
       "EE380: Control Systems"
     ]
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html",
-    "href": "INSTRUCTOR_GUIDE.html",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
   },
   {
     "objectID": "calendar.html",
@@ -245,7 +197,7 @@
     "href": "calendar.html#week-5",
     "title": "Schedule & Materials",
     "section": "Week 5",
-    "text": "Week 5\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nFeb 8\nState Space · Modelling\nSlides (PDF)  Reading: 2.6\n\n\n\nFeb 10\nState Space · Modelling II\nSlides (PDF)\n\n\n\nFeb 12\n**** · L12\nSlides (PDF)",
+    "text": "Week 5\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nFeb 8\nState Space · Modelling\nSlides (PDF)  Reading: 2.6\n\n\n\nFeb 10\nState Space · Modelling II\nSlides (PDF)\n\n\n\nFeb 12\nState Space · Modelling III\nSlides (PDF)",
     "crumbs": [
       "Home",
       "Schedule",
@@ -262,6 +214,54 @@
       "Home",
       "Schedule",
       "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "Course Policy",
+    "section": "",
+    "text": "NoteEE380 Course Policy\n\n\n\nThis page summarizes grading, collaboration rules, and course resources.\nUpdates will be reflected here throughout the semester.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#grading",
+    "href": "policy.html#grading",
+    "title": "Course Policy",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\n\n\nImportantGrading scheme (overview)\n\n\n\n\n\n\n\n\n\n\n\nComponent\nWeight\nWhat it includes\n\n\n\n\nClasswork\n25%\nHomework, quizzes, in-class activities (and project, if assigned)\n\n\nMajor exam 1\n20%\nMonday, 23-Feb (Week 7)\n\n\nMajor exam 2\n20%\nTuesday, 12-Apr (Week 13)\n\n\nFinal exam\n35%\nTBA (university schedule)\n\n\n\n\n\n\n\n\n\n\n\nNote: Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#academic-integrity-and-collaboration",
+    "href": "policy.html#academic-integrity-and-collaboration",
+    "title": "Course Policy",
+    "section": "Academic integrity and collaboration",
+    "text": "Academic integrity and collaboration\n\n\n\n\n\n\nWarningWhat is allowed vs not allowed\n\n\n\n✅ Allowed - Discussing concepts and approaches at a high level with classmates\n- Using course notes and posted examples\n- Studying together\n❌ Not allowed - Copying any part of another student’s written solution\n- Copying code, derivations, or calculations (even if you “understand it”)\n- Submitting work that is not fully your own\n\n\nIf you collaborate, your submitted work must be written independently and reflect your own understanding.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
+    ]
+  },
+  {
+    "objectID": "policy.html#resources",
+    "href": "policy.html#resources",
+    "title": "Course Policy",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nTextbooks\n\nMain: R. Dorf & R. Bishop, Modern Control Systems, 13th ed. (2017)\nOptional: Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.\n\n\n\n\nSoftware\n\nMATLAB/Simulink for computational work\nPython may be used for selected demos or optional simulations\n\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nIf you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.\nThe Calendar page will list the specific topics to review when needed.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "Course Policy"
     ]
   }
 ]
