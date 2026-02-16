@@ -58,7 +58,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 15** | **** · L15 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
+| **Feb 15** | **State Space** · Modelling IV | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBlW3o8y0mbSrTx8_PWLIu0ATMayHuxMXOY8LnBPKfER6A?e=fP2pH7){.btn .btn-sm .btn-outline-primary} <br> Reading: 2.6| |
 | **Feb 17** | **** · L17 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |[Quiz 2](#){.btn .btn-sm .btn-warning .disabled role="button" aria-disabled="true"} |
 | **Feb 19** | **** · L12 | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
