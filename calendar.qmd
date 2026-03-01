@@ -74,9 +74,9 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **Feb 22** | **Time Domain Analysis** · III | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |
-| **Feb 24** | **Time Domain Analysis** · IV | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **Feb 26** | **Time Domain Analysis** · V | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 1** | **Time Domain Analysis** · III | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} |
+| **March 3** | **Time Domain Analysis** · IV | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 5** | **Time Domain Analysis** · V | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
 ::: {.callout-note appearance="minimal"}
 ### Notes
