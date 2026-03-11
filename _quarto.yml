@@ -17,6 +17,8 @@ website:
         text: Schedule
       - href: homework.qmd
         text: Homework
+      - href: project.qmd
+        text: Project
       - href: policy.qmd
         text: Policies
     right:
@@ -39,6 +41,9 @@ website:
       - section: "Assignments"
         contents:
           - homework.qmd
+      - section: "Project"
+        contents:
+          - project.qmd
 
   page-footer:
     border: true
