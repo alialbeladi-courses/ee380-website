@@ -21,211 +21,51 @@
     "text": "2. Live Calculation (Pyodide)\nFor homework problems, students can write run this code directly. Try changing the values below and running it again.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "INSTRUCTOR_GUIDE.html",
-    "href": "INSTRUCTOR_GUIDE.html",
-    "title": "Instructor Guide: EE380 Course Website",
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "Course Policy",
     "section": "",
-    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Course Project Resources",
-    "section": "",
-    "text": "NoteAbout the Course Project\n\n\n\nThese resources are provided to help you choose, design, and build your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#self-balancing-two-wheel-robot",
-    "href": "project.html#self-balancing-two-wheel-robot",
-    "title": "Course Project Resources",
-    "section": "1. Self-Balancing Two-Wheel Robot",
-    "text": "1. Self-Balancing Two-Wheel Robot\nBuild and control an unstable mobile robot that balances upright using sensor feedback.\nWhat to look for: IMU sensor (e.g., MPU6050), DC gear motors with encoders, motor driver, and a 3D-printed or laser-cut chassis. Expect a moderate build and a classic PID balancing challenge.\n\nCALOU Self-Balancing Robot\nDIY Self-Balancing Robot\nArduino Two-Wheel Self-Balancing Robot",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#reaction-wheel-pendulum",
-    "href": "project.html#reaction-wheel-pendulum",
-    "title": "Course Project Resources",
-    "section": "2. Reaction Wheel Pendulum",
-    "text": "2. Reaction Wheel Pendulum\nUse a motor-driven reaction wheel to stabilize a pendulum in the upright position.\nWhat to look for: A brushless or brushed DC motor with an attached flywheel, an encoder or IMU for angle sensing, and a carefully balanced mechanical arm. The control challenge involves managing angular momentum transfer.\n\nSimpleFOC Reaction Wheel Inverted Pendulum\naskuric Inverted Inertia Pendulum\nEthan Lawlor RWIP",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#ball-and-beam-system",
-    "href": "project.html#ball-and-beam-system",
-    "title": "Course Project Resources",
-    "section": "3. Ball-and-Beam System",
-    "text": "3. Ball-and-Beam System\nControl beam angle to regulate the position of a rolling ball.\nWhat to look for: A servo motor to tilt the beam, an ultrasonic or IR distance sensor for ball position, and a simple mechanical frame. This is a straightforward build with a well-known control problem.\n\nIan Carey Ball and Beam Kit\nOpen-Source Ball-and-Beam Platform\nDorsa-amiri Ball-and-Beam",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#dof-helicopter-twin-rotor-arm",
-    "href": "project.html#dof-helicopter-twin-rotor-arm",
-    "title": "Course Project Resources",
-    "section": "4. 1-DOF Helicopter / Twin-Rotor Arm",
-    "text": "4. 1-DOF Helicopter / Twin-Rotor Arm\nControl the angular position of a rotor-driven arm and track reference commands.\nWhat to look for: One or two brushless motors (propellers), a pivot-mounted arm, and an angle sensor (encoder or potentiometer). The build requires secure mounting, and the control challenge involves managing thrust-to-angle dynamics.\n\nVan Hunter Adams 1-DoF Helicopter\nNolan Tsuchiya 1-DOF Helicopter\nNabilHassan 1DOF-Copter-Backstepping",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#single-axis-gimbal-stabilization",
-    "href": "project.html#single-axis-gimbal-stabilization",
-    "title": "Course Project Resources",
-    "section": "5. Single-Axis Gimbal Stabilization",
-    "text": "5. Single-Axis Gimbal Stabilization\nDesign a stabilization system that keeps one axis steady despite base disturbances.\nWhat to look for: A servo or brushless motor, an IMU (e.g., MPU6050) for orientation sensing, and a gimbal frame (3D-printed or assembled from hardware). The control challenge is rejecting disturbances in real time.\n\nDIY Arduino Gimbal — Self-Stabilizing Platform\nArduino Gimbal by The Noob Inventor\nMPU6050 1-Axis Gimbal\nSingle-Axis Gimbal Code",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#solar-powered-dc-bus-regulation",
-    "href": "project.html#solar-powered-dc-bus-regulation",
-    "title": "Course Project Resources",
-    "section": "6. Solar-Powered DC Bus Regulation",
-    "text": "6. Solar-Powered DC Bus Regulation\nControl a DC-DC converter to regulate voltage in a small solar-energy system under changing conditions.\nWhat to look for: A buck or boost converter circuit, voltage/current sensors, a solar panel (small), and a microcontroller for PWM-based control. This project is more circuit-focused; expect breadboard or PCB work and a power electronics control challenge.\n\nDC-DC Buck Converter with Arduino Uno\nArduino DC-DC Buck Converter with PID Control\nMPPT Buck Converter ACS712\nLibre Solar MPPT 2420 HC",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "project.html#project-assessment-and-timeline",
-    "href": "project.html#project-assessment-and-timeline",
-    "title": "Course Project Resources",
-    "section": "Project Assessment and Timeline",
-    "text": "Project Assessment and Timeline\nThis is a 5-week project with 3 graded milestones.\n\n\n\nComponent\nWeight\nDue Date\n\n\n\n\nMilestone 1 — Project definition & modeling\n20%\nApril 4\n\n\nMilestone 2 — Simulation & early hardware\n25%\nApril 18\n\n\nFinal demonstration\n25%\nMay 3\n\n\nFinal technical report\n20%\nMay 5\n\n\nIndividual contribution & professionalism\n10%\nOngoing\n\n\n\n\nMilestone 1: Project Definition and Modeling (20%)\nSubmit:\n\nChosen project and team members\nControl objective\nIdentified input, output, actuator, sensor, and main disturbance\nInitial mathematical model with assumptions\nParts list and build plan\n\n\n\nMilestone 2: Simulation and Early Hardware Progress (25%)\nSubmit:\n\nSimulation model and controller design\nPlots showing system response\nProgress on hardware build\nProof that sensing and actuation are working at a basic level\n\n\n\nFinal Demonstration (25%)\nYou must:\n\nGive a live demo of the built system\nShow closed-loop operation\nExplain what works and what does not\n\n\n\nFinal Technical Report (20%)\nThe report should include:\n\nProject overview\nModel derivation\nSimulation results\nController design\nHardware implementation\nExperimental results\nComparison between simulation and experiment\nDiscussion of limitations and improvements\n\n\n\nIndividual Contribution and Professionalism (10%)\nBased on:\n\nShort individual reflection\nPeer evaluation\nMeeting deadlines\nContribution during demo/presentation\n\n\n\n\n\n\n\n\nImportantRemember\n\n\n\nThe resources above are starting points. Your final project must include your own modeling, simulation, hardware implementation, and closed-loop control. Use these references to understand the build process, then make the project your own.",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project Resources"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EE380: Control Systems",
-    "section": "",
-    "text": "NoteEE380 — Control Systems\n\n\n\nSpring 2026 · Instructor: Dr. Ali AlBeladi & Ali Mustafa (TA OH: 1-2PM, Mon & Wed) Build intuition and design skills for feedback control using real engineering examples.",
+    "text": "NoteEE380 Course Policy\n\n\n\nThis page summarizes grading, collaboration rules, and course resources.\nUpdates will be reflected here throughout the semester.",
     "crumbs": [
       "Home",
       "Course Info",
-      "EE380: Control Systems"
+      "Course Policy"
     ]
   },
   {
-    "objectID": "index.html#start-here",
-    "href": "index.html#start-here",
-    "title": "EE380: Control Systems",
-    "section": "Start here",
-    "text": "Start here\nWhat to do before the first lecture - Read the Syllabus (grading, exam rules, late policy) - Check the Calendar for this week’s slides + topics - Bookmark the Homework page (all deadlines live there) - Install MATLAB/Simulink (recommended) and Python (optional for demos)\n\n\n\n\n\n\nImportantWhere to look for updates\n\n\n\nThis website is the single source of truth for announcements, schedule updates, and deadlines.",
+    "objectID": "policy.html#grading",
+    "href": "policy.html#grading",
+    "title": "Course Policy",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\n\n\nImportantGrading scheme (overview)\n\n\n\n\n\n\n\n\n\n\n\nComponent\nWeight\nWhat it includes\n\n\n\n\nClasswork\n25%\nHomework, quizzes, in-class activities (and project, if assigned)\n\n\nMajor exam 1\n20%\nMonday, 23-Feb (Week 7)\n\n\nMajor exam 2\n20%\nTuesday, 12-Apr (Week 13)\n\n\nFinal exam\n35%\nTBA (university schedule)\n\n\n\n\n\n\n\n\n\n\n\nNote: Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.",
     "crumbs": [
       "Home",
       "Course Info",
-      "EE380: Control Systems"
+      "Course Policy"
     ]
   },
   {
-    "objectID": "index.html#quick-links",
-    "href": "index.html#quick-links",
-    "title": "EE380: Control Systems",
-    "section": "Quick links",
-    "text": "Quick links\n\n📘 Course Policy 📅 Schedule & Materials 📝 Homework 🧩 Modules 🚀 Project\n\n\n\n\n\n\n\nNoteThis week\n\n\n\n\nTopic: Modeling + Intro to Feedback\nDeliverable: HW1 (see Homework page)\nReading: listed on the Calendar",
+    "objectID": "policy.html#academic-integrity-and-collaboration",
+    "href": "policy.html#academic-integrity-and-collaboration",
+    "title": "Course Policy",
+    "section": "Academic integrity and collaboration",
+    "text": "Academic integrity and collaboration\n\n\n\n\n\n\nWarningWhat is allowed vs not allowed\n\n\n\n✅ Allowed - Discussing concepts and approaches at a high level with classmates\n- Using course notes and posted examples\n- Studying together\n❌ Not allowed - Copying any part of another student’s written solution\n- Copying code, derivations, or calculations (even if you “understand it”)\n- Submitting work that is not fully your own\n\n\nIf you collaborate, your submitted work must be written independently and reflect your own understanding.",
     "crumbs": [
       "Home",
       "Course Info",
-      "EE380: Control Systems"
+      "Course Policy"
     ]
   },
   {
-    "objectID": "index.html#announcements",
-    "href": "index.html#announcements",
-    "title": "EE380: Control Systems",
-    "section": "Announcements",
-    "text": "Announcements\n\n\nHW2 and Quiz 2\nPlease check the Homework page for HW2 details and the due date/time. Also, be informed that quiz 2, on chapter 4, will take place on Feb 17. All the best.\n\n\n\n\nMajor exams schedule\nPlease refer to the Course Policy page for the major exams’ dates.\n\n\n\n\nWeek 2 — HW1 is posted\nPlease check the Homework page for HW1 details and the due date/time.\n\n\n\n\nWeek 1 — Getting started\nWelcome to the course! Please review the Syllabus and install MATLAB/Simulink.\nPython is optional unless you want to run local simulations.",
+    "objectID": "policy.html#resources",
+    "href": "policy.html#resources",
+    "title": "Course Policy",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nTextbooks\n\nMain: R. Dorf & R. Bishop, Modern Control Systems, 13th ed. (2017)\nOptional: Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.\n\n\n\n\nSoftware\n\nMATLAB/Simulink for computational work\nPython may be used for selected demos or optional simulations\n\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nIf you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.\nThe Calendar page will list the specific topics to review when needed.",
     "crumbs": [
       "Home",
       "Course Info",
-      "EE380: Control Systems"
-    ]
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Homework",
-    "section": "",
-    "text": "NoteSubmission\n\n\n\nAssignments are due by 11:59 PM (Asia/Riyadh) and submitted on Gradescope.\nOpen Gradescope Entry code: D684VR",
-    "crumbs": [
-      "Home",
-      "Assignments",
-      "Homework"
-    ]
-  },
-  {
-    "objectID": "homework.html#assignments",
-    "href": "homework.html#assignments",
-    "title": "Homework",
-    "section": "Assignments",
-    "text": "Assignments\n\n\n\nAssignment\nRelease\nDue\nFiles\nSolution\n\n\n\n\nHW 1\nJan 23\nJan 31\nHW1 PDF\nHW1 Sol PDF\n\n\nHW 2\nFeb 7\nFeb 14\nHW2 PDF\nHW2 Sol PDF\n\n\nHW 3\nTBA\nTBA\n—\n\n\n\n\n\n\n\n\n\n\nTipQuick checklist (Gradescope)\n\n\n\n\nSubmit one PDF (clear scans, high contrast).\nStart each question on a new page (recommended).\nUse Gradescope’s tool to map pages → questions.\nIf the grader cannot read it, they may request a resubmission or deduct points.\nFor multi-page answers, link all relevant pages to that question.\n\n\n\nNeed help submitting? See Gradescope’s student guide: How to submit variable-length assignments",
-    "crumbs": [
-      "Home",
-      "Assignments",
-      "Homework"
-    ]
-  },
-  {
-    "objectID": "homework.html#policies",
-    "href": "homework.html#policies",
-    "title": "Homework",
-    "section": "Policies",
-    "text": "Policies\n\n\n\n\n\n\nWarningLate days\n\n\n\nYou have 6 late days total, with a maximum of 2 late days per assignment.\nEach late day is a 24-hour extension (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).\nNo credit is given after 48 hours past the deadline, or after late days are exhausted.\n\n\n\n\nCollaboration policy and honor code\nStudents must work individually on all homework assignments.\nYou may have high-level discussions with classmates, but anything you submit must be your own work.\nYou may reuse small snippets of publicly available code (e.g., StackOverflow) only if properly attributed.\n\n\nGenerative AI tools policy\nIn this course, every element of class assignments must be fully prepared by the student.\nThe use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism — unless it is explicitly permitted and announced by the instructor.\n\n\nRegrade policy\nRegrade requests are submitted through Gradescope. Include a clear explanation of the grading error.\n\nDeadline: within 1 week of receiving your grade, by 11:59 PM.\nWe may regrade the entire assignment (your score may go up or down).\n\nLegitimate requests - Points were added incorrectly. - The answer exists but was on a different page. - The grader claims a specific case fails, but your implementation works for that case.\nIllegitimate requests - Disagreeing with the rubric / asking for more partial credit without an error. - “My solution wasn’t clear, but what I meant was correct.”",
-    "crumbs": [
-      "Home",
-      "Assignments",
-      "Homework"
+      "Course Policy"
     ]
   },
   {
@@ -337,51 +177,223 @@
     ]
   },
   {
-    "objectID": "policy.html",
-    "href": "policy.html",
-    "title": "Course Policy",
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Homework",
     "section": "",
-    "text": "NoteEE380 Course Policy\n\n\n\nThis page summarizes grading, collaboration rules, and course resources.\nUpdates will be reflected here throughout the semester.",
+    "text": "NoteSubmission\n\n\n\nAssignments are due by 11:59 PM (Asia/Riyadh) and submitted on Gradescope.\nOpen Gradescope Entry code: D684VR",
     "crumbs": [
       "Home",
-      "Course Info",
-      "Course Policy"
+      "Assignments",
+      "Homework"
     ]
   },
   {
-    "objectID": "policy.html#grading",
-    "href": "policy.html#grading",
-    "title": "Course Policy",
-    "section": "Grading",
-    "text": "Grading\n\n\n\n\n\n\nImportantGrading scheme (overview)\n\n\n\n\n\n\n\n\n\n\n\nComponent\nWeight\nWhat it includes\n\n\n\n\nClasswork\n25%\nHomework, quizzes, in-class activities (and project, if assigned)\n\n\nMajor exam 1\n20%\nMonday, 23-Feb (Week 7)\n\n\nMajor exam 2\n20%\nTuesday, 12-Apr (Week 13)\n\n\nFinal exam\n35%\nTBA (university schedule)\n\n\n\n\n\n\n\n\n\n\n\nNote: Details such as the number of quizzes/exams, coverage, and formatting rules will be announced and posted here once finalized.",
+    "objectID": "homework.html#assignments",
+    "href": "homework.html#assignments",
+    "title": "Homework",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\nAssignment\nRelease\nDue\nFiles\nSolution\n\n\n\n\nHW 1\nJan 23\nJan 31\nHW1 PDF\nHW1 Sol PDF\n\n\nHW 2\nFeb 7\nFeb 14\nHW2 PDF\nHW2 Sol PDF\n\n\nHW 3\nTBA\nTBA\n—\n\n\n\n\n\n\n\n\n\n\nTipQuick checklist (Gradescope)\n\n\n\n\nSubmit one PDF (clear scans, high contrast).\nStart each question on a new page (recommended).\nUse Gradescope’s tool to map pages → questions.\nIf the grader cannot read it, they may request a resubmission or deduct points.\nFor multi-page answers, link all relevant pages to that question.\n\n\n\nNeed help submitting? See Gradescope’s student guide: How to submit variable-length assignments",
     "crumbs": [
       "Home",
-      "Course Info",
-      "Course Policy"
+      "Assignments",
+      "Homework"
     ]
   },
   {
-    "objectID": "policy.html#academic-integrity-and-collaboration",
-    "href": "policy.html#academic-integrity-and-collaboration",
-    "title": "Course Policy",
-    "section": "Academic integrity and collaboration",
-    "text": "Academic integrity and collaboration\n\n\n\n\n\n\nWarningWhat is allowed vs not allowed\n\n\n\n✅ Allowed - Discussing concepts and approaches at a high level with classmates\n- Using course notes and posted examples\n- Studying together\n❌ Not allowed - Copying any part of another student’s written solution\n- Copying code, derivations, or calculations (even if you “understand it”)\n- Submitting work that is not fully your own\n\n\nIf you collaborate, your submitted work must be written independently and reflect your own understanding.",
+    "objectID": "homework.html#policies",
+    "href": "homework.html#policies",
+    "title": "Homework",
+    "section": "Policies",
+    "text": "Policies\n\n\n\n\n\n\nWarningLate days\n\n\n\nYou have 6 late days total, with a maximum of 2 late days per assignment.\nEach late day is a 24-hour extension (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).\nNo credit is given after 48 hours past the deadline, or after late days are exhausted.\n\n\n\n\nCollaboration policy and honor code\nStudents must work individually on all homework assignments.\nYou may have high-level discussions with classmates, but anything you submit must be your own work.\nYou may reuse small snippets of publicly available code (e.g., StackOverflow) only if properly attributed.\n\n\nGenerative AI tools policy\nIn this course, every element of class assignments must be fully prepared by the student.\nThe use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism — unless it is explicitly permitted and announced by the instructor.\n\n\nRegrade policy\nRegrade requests are submitted through Gradescope. Include a clear explanation of the grading error.\n\nDeadline: within 1 week of receiving your grade, by 11:59 PM.\nWe may regrade the entire assignment (your score may go up or down).\n\nLegitimate requests - Points were added incorrectly. - The answer exists but was on a different page. - The grader claims a specific case fails, but your implementation works for that case.\nIllegitimate requests - Disagreeing with the rubric / asking for more partial credit without an error. - “My solution wasn’t clear, but what I meant was correct.”",
     "crumbs": [
       "Home",
-      "Course Info",
-      "Course Policy"
+      "Assignments",
+      "Homework"
     ]
   },
   {
-    "objectID": "policy.html#resources",
-    "href": "policy.html#resources",
-    "title": "Course Policy",
-    "section": "Resources",
-    "text": "Resources\n\n\n\nTextbooks\n\nMain: R. Dorf & R. Bishop, Modern Control Systems, 13th ed. (2017)\nOptional: Franklin, Powell, Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.\n\n\n\n\nSoftware\n\nMATLAB/Simulink for computational work\nPython may be used for selected demos or optional simulations\n\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nIf you’re rusty on Laplace transforms and differential equations, spend a little time reviewing them in Week 1–2.\nThe Calendar page will list the specific topics to review when needed.",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EE380: Control Systems",
+    "section": "",
+    "text": "NoteEE380 — Control Systems\n\n\n\nSpring 2026 · Instructor: Dr. Ali AlBeladi & Ali Mustafa (TA OH: 1-2PM, Mon & Wed) Build intuition and design skills for feedback control using real engineering examples.",
     "crumbs": [
       "Home",
       "Course Info",
-      "Course Policy"
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "EE380: Control Systems",
+    "section": "Start here",
+    "text": "Start here\nWhat to do before the first lecture - Read the Syllabus (grading, exam rules, late policy) - Check the Calendar for this week’s slides + topics - Bookmark the Homework page (all deadlines live there) - Install MATLAB/Simulink (recommended) and Python (optional for demos)\n\n\n\n\n\n\nImportantWhere to look for updates\n\n\n\nThis website is the single source of truth for announcements, schedule updates, and deadlines.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "EE380: Control Systems",
+    "section": "Quick links",
+    "text": "Quick links\n\n📘 Course Policy 📅 Schedule & Materials 📝 Homework 🧩 Modules 🚀 Project\n\n\n\n\n\n\n\nNoteThis week\n\n\n\n\nTopic: Modeling + Intro to Feedback\nDeliverable: HW1 (see Homework page)\nReading: listed on the Calendar",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "index.html#announcements",
+    "href": "index.html#announcements",
+    "title": "EE380: Control Systems",
+    "section": "Announcements",
+    "text": "Announcements\n\n\nHW2 and Quiz 2\nPlease check the Homework page for HW2 details and the due date/time. Also, be informed that quiz 2, on chapter 4, will take place on Feb 17. All the best.\n\n\n\n\nMajor exams schedule\nPlease refer to the Course Policy page for the major exams’ dates.\n\n\n\n\nWeek 2 — HW1 is posted\nPlease check the Homework page for HW1 details and the due date/time.\n\n\n\n\nWeek 1 — Getting started\nWelcome to the course! Please review the Syllabus and install MATLAB/Simulink.\nPython is optional unless you want to run local simulations.",
+    "crumbs": [
+      "Home",
+      "Course Info",
+      "EE380: Control Systems"
+    ]
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Course Project",
+    "section": "",
+    "text": "NoteAbout the Course Project\n\n\n\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.\nThese resources are provided to help you choose, design, and build your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.\n📂 View Project Ideas & Build Resources",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Course Project"
+    ]
+  },
+  {
+    "objectID": "project.html#project-assessment-and-timeline",
+    "href": "project.html#project-assessment-and-timeline",
+    "title": "Course Project",
+    "section": "Project Assessment and Timeline",
+    "text": "Project Assessment and Timeline\nThis is a 5-week project with 3 graded milestones.\n\n\n\nComponent\nWeight\nDue Date\n\n\n\n\nMilestone 1 — Project definition & modeling\n20%\nApril 4\n\n\nMilestone 2 — Simulation & early hardware\n25%\nApril 18\n\n\nFinal demonstration\n25%\nMay 3\n\n\nFinal technical report\n20%\nMay 5\n\n\nIndividual contribution & professionalism\n10%\nOngoing\n\n\n\n\nMilestone 1: Project Definition and Modeling (20%)\nSubmit:\n\nChosen project and team members\nControl objective\nIdentified input, output, actuator, sensor, and main disturbance\nInitial mathematical model with assumptions\nParts list and build plan\n\n\n\nMilestone 2: Simulation and Early Hardware Progress (25%)\nSubmit:\n\nSimulation model and controller design\nPlots showing system response\nProgress on hardware build\nProof that sensing and actuation are working at a basic level\n\n\n\nFinal Demonstration (25%)\nYou must:\n\nGive a live demo of the built system\nShow closed-loop operation\nExplain what works and what does not\n\n\n\nFinal Technical Report (20%)\nThe report should include:\n\nProject overview\nModel derivation\nSimulation results\nController design\nHardware implementation\nExperimental results\nComparison between simulation and experiment\nDiscussion of limitations and improvements\n\n\n\nIndividual Contribution and Professionalism (10%)\nBased on:\n\nShort individual reflection\nPeer evaluation\nMeeting deadlines\nContribution during demo/presentation\n\n\n\n\n\n\n\n\nImportantRemember\n\n\n\nThe resources above are starting points. Your final project must include your own modeling, simulation, hardware implementation, and closed-loop control. Use these references to understand the build process, then make the project your own.",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Course Project"
+    ]
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html",
+    "href": "INSTRUCTOR_GUIDE.html",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
+  },
+  {
+    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
+    "title": "Instructor Guide: EE380 Course Website",
+    "section": "",
+    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
+  },
+  {
+    "objectID": "project-ideas.html",
+    "href": "project-ideas.html",
+    "title": "Project Ideas & Build Resources",
+    "section": "",
+    "text": "These resources are provided to help you choose, design, and build your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#self-balancing-two-wheel-robot",
+    "href": "project-ideas.html#self-balancing-two-wheel-robot",
+    "title": "Project Ideas & Build Resources",
+    "section": "1. Self-Balancing Two-Wheel Robot",
+    "text": "1. Self-Balancing Two-Wheel Robot\nBuild and control an unstable mobile robot that balances upright using sensor feedback.\nWhat to look for: IMU sensor (e.g., MPU6050), DC gear motors with encoders, motor driver, and a 3D-printed or laser-cut chassis. Expect a moderate build and a classic PID balancing challenge.\n\nCALOU Self-Balancing Robot\nDIY Self-Balancing Robot\nArduino Two-Wheel Self-Balancing Robot",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#reaction-wheel-pendulum",
+    "href": "project-ideas.html#reaction-wheel-pendulum",
+    "title": "Project Ideas & Build Resources",
+    "section": "2. Reaction Wheel Pendulum",
+    "text": "2. Reaction Wheel Pendulum\nUse a motor-driven reaction wheel to stabilize a pendulum in the upright position.\nWhat to look for: A brushless or brushed DC motor with an attached flywheel, an encoder or IMU for angle sensing, and a carefully balanced mechanical arm. The control challenge involves managing angular momentum transfer.\n\nSimpleFOC Reaction Wheel Inverted Pendulum\naskuric Inverted Inertia Pendulum\nEthan Lawlor RWIP",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#ball-and-beam-system",
+    "href": "project-ideas.html#ball-and-beam-system",
+    "title": "Project Ideas & Build Resources",
+    "section": "3. Ball-and-Beam System",
+    "text": "3. Ball-and-Beam System\nControl beam angle to regulate the position of a rolling ball.\nWhat to look for: A servo motor to tilt the beam, an ultrasonic or IR distance sensor for ball position, and a simple mechanical frame. This is a straightforward build with a well-known control problem.\n\nIan Carey Ball and Beam Kit\nOpen-Source Ball-and-Beam Platform\nDorsa-amiri Ball-and-Beam",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#dof-helicopter-twin-rotor-arm",
+    "href": "project-ideas.html#dof-helicopter-twin-rotor-arm",
+    "title": "Project Ideas & Build Resources",
+    "section": "4. 1-DOF Helicopter / Twin-Rotor Arm",
+    "text": "4. 1-DOF Helicopter / Twin-Rotor Arm\nControl the angular position of a rotor-driven arm and track reference commands.\nWhat to look for: One or two brushless motors (propellers), a pivot-mounted arm, and an angle sensor (encoder or potentiometer). The build requires secure mounting, and the control challenge involves managing thrust-to-angle dynamics.\n\nVan Hunter Adams 1-DoF Helicopter\nNolan Tsuchiya 1-DOF Helicopter\nNabilHassan 1DOF-Copter-Backstepping",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#single-axis-gimbal-stabilization",
+    "href": "project-ideas.html#single-axis-gimbal-stabilization",
+    "title": "Project Ideas & Build Resources",
+    "section": "5. Single-Axis Gimbal Stabilization",
+    "text": "5. Single-Axis Gimbal Stabilization\nDesign a stabilization system that keeps one axis steady despite base disturbances.\nWhat to look for: A servo or brushless motor, an IMU (e.g., MPU6050) for orientation sensing, and a gimbal frame (3D-printed or assembled from hardware). The control challenge is rejecting disturbances in real time.\n\nDIY Arduino Gimbal — Self-Stabilizing Platform\nArduino Gimbal by The Noob Inventor\nMPU6050 1-Axis Gimbal\nSingle-Axis Gimbal Code",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
+    ]
+  },
+  {
+    "objectID": "project-ideas.html#solar-powered-dc-bus-regulation",
+    "href": "project-ideas.html#solar-powered-dc-bus-regulation",
+    "title": "Project Ideas & Build Resources",
+    "section": "6. Solar-Powered DC Bus Regulation",
+    "text": "6. Solar-Powered DC Bus Regulation\nControl a DC-DC converter to regulate voltage in a small solar-energy system under changing conditions.\nWhat to look for: A buck or boost converter circuit, voltage/current sensors, a solar panel (small), and a microcontroller for PWM-based control. This project is more circuit-focused; expect breadboard or PCB work and a power electronics control challenge.\n\nDC-DC Buck Converter with Arduino Uno\nArduino DC-DC Buck Converter with PID Control\nMPPT Buck Converter ACS712\nLibre Solar MPPT 2420 HC\n\n\n\n\n\n\n\n\nImportantRemember\n\n\n\nThe resources above are starting points. Your final project must include your own modeling, simulation, hardware implementation, and closed-loop control. Use these references to understand the build process, then make the project your own.",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Project Ideas & Build Resources"
     ]
   }
 ]
