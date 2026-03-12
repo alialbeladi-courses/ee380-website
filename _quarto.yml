@@ -44,6 +44,7 @@ website:
       - section: "Project"
         contents:
           - project.qmd
+          - project-ideas.qmd
 
   page-footer:
     border: true

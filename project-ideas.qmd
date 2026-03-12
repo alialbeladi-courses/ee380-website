@@ -1,0 +1,90 @@
+---
+title: "Project Ideas & Build Resources"
+format: html
+toc: true
+---
+
+::: {.callout-note appearance="minimal"}
+These resources are provided to help you **choose, design, and build** your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.
+:::
+
+---
+
+## 1. Self-Balancing Two-Wheel Robot
+
+Build and control an unstable mobile robot that balances upright using sensor feedback.
+
+**What to look for:** IMU sensor (e.g., MPU6050), DC gear motors with encoders, motor driver, and a 3D-printed or laser-cut chassis. Expect a moderate build and a classic PID balancing challenge.
+
+- [CALOU Self-Balancing Robot](https://github.com/Versatilerobot/CALOU_self_balancing_robot)
+- [DIY Self-Balancing Robot](https://github.com/raphaelkmg/DIY-Self-Balancing-Robot)
+- [Arduino Two-Wheel Self-Balancing Robot](https://projecthub.arduino.cc/mircemk/arduino-two-weel-self-balancing-robot-edef61)
+
+---
+
+## 2. Reaction Wheel Pendulum
+
+Use a motor-driven reaction wheel to stabilize a pendulum in the upright position.
+
+**What to look for:** A brushless or brushed DC motor with an attached flywheel, an encoder or IMU for angle sensing, and a carefully balanced mechanical arm. The control challenge involves managing angular momentum transfer.
+
+- [SimpleFOC Reaction Wheel Inverted Pendulum](https://github.com/simplefoc/Arduino-FOC-reaction-wheel-inverted-pendulum)
+- [askuric Inverted Inertia Pendulum](https://askuric.github.io/inverted_inertia_pendulum/)
+- [Ethan Lawlor RWIP](https://github.com/EthanLawlor/RWIP)
+
+---
+
+## 3. Ball-and-Beam System
+
+Control beam angle to regulate the position of a rolling ball.
+
+**What to look for:** A servo motor to tilt the beam, an ultrasonic or IR distance sensor for ball position, and a simple mechanical frame. This is a straightforward build with a well-known control problem.
+
+- [Ian Carey Ball and Beam Kit](https://careyi3.github.io/balance_beam_kit/)
+- [Open-Source Ball-and-Beam Platform](https://github.com/santeaponte/Open-source-Ball-and-Beam-platform)
+- [Dorsa-amiri Ball-and-Beam](https://github.com/Dorsa-amiri/Ball-and-Beam)
+
+---
+
+## 4. 1-DOF Helicopter / Twin-Rotor Arm
+
+Control the angular position of a rotor-driven arm and track reference commands.
+
+**What to look for:** One or two brushless motors (propellers), a pivot-mounted arm, and an angle sensor (encoder or potentiometer). The build requires secure mounting, and the control challenge involves managing thrust-to-angle dynamics.
+
+- [Van Hunter Adams 1-DoF Helicopter](https://vanhunteradams.com/Pico/VGA/Helicopter.html)
+- [Nolan Tsuchiya 1-DOF Helicopter](https://www.nolantsuchiya.com/1-dof-helicopter)
+- [NabilHassan 1DOF-Copter-Backstepping](https://github.com/NabilHassan11/1dof-copter-backstepping)
+
+---
+
+## 5. Single-Axis Gimbal Stabilization
+
+Design a stabilization system that keeps one axis steady despite base disturbances.
+
+**What to look for:** A servo or brushless motor, an IMU (e.g., MPU6050) for orientation sensing, and a gimbal frame (3D-printed or assembled from hardware). The control challenge is rejecting disturbances in real time.
+
+- [DIY Arduino Gimbal — Self-Stabilizing Platform](https://howtomechatronics.com/projects/diy-arduino-gimbal-self-stabilizing-platform/)
+- [Arduino Gimbal by The Noob Inventor](https://thenoobinventor.github.io/arduino-gimbal/index.html)
+- [MPU6050 1-Axis Gimbal](https://www.instructables.com/MPU6050-1-Axis-Gimbal/)
+- [Single-Axis Gimbal Code](https://github.com/starphys/arduino_gimbal)
+
+---
+
+## 6. Solar-Powered DC Bus Regulation
+
+Control a DC-DC converter to regulate voltage in a small solar-energy system under changing conditions.
+
+**What to look for:** A buck or boost converter circuit, voltage/current sensors, a solar panel (small), and a microcontroller for PWM-based control. This project is more circuit-focused; expect breadboard or PCB work and a power electronics control challenge.
+
+- [DC-DC Buck Converter with Arduino Uno](https://samiralavi.github.io/blog/2020/11/22/dc-dc-buck-converter-with-arduino-uno/)
+- [Arduino DC-DC Buck Converter with PID Control](https://github.com/AchlysX/Arduino-DC-DC-Buck-Converter-with-PID-Control)
+- [MPPT Buck Converter ACS712](https://github.com/TheDIYGuy999/MPPT_Buck_Converter_ACS712)
+- [Libre Solar MPPT 2420 HC](https://github.com/LibreSolar/mppt-2420-hc/blob/master/README.md)
+
+---
+
+::: {.callout-important appearance="minimal"}
+### Remember
+The resources above are **starting points**. Your final project must include your own **modeling, simulation, hardware implementation, and closed-loop control**. Use these references to understand the build process, then make the project your own.
+:::
