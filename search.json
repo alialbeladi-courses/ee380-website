@@ -265,7 +265,7 @@
     "href": "project.html",
     "title": "Course Project",
     "section": "",
-    "text": "NoteAbout the Course Project\n\n\n\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.\nThese resources are provided to help you choose, design, and build your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.\n📂 View Project Ideas & Build Resources",
+    "text": "NoteAbout the Course Project\n\n\n\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.\n📂 View Project Ideas & Build Resources",
     "crumbs": [
       "Home",
       "Project",
