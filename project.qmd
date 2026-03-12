@@ -8,8 +8,6 @@ toc: true
 ## About the Course Project
 For the project, your team must **model, simulate, and build** the system and implement **closed-loop control**.
 
-These resources are provided to help you **choose, design, and build** your course project. Each project below includes example open-source builds, tutorials, assembly references, or printable part resources to help you get started. You are not required to copy these exactly, but they should help you understand the hardware, components, and build process.
-
 [📂 View Project Ideas & Build Resources](project-ideas.qmd){.btn .btn-primary .btn-sm}
 :::
 
