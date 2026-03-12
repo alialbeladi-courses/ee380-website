@@ -78,6 +78,14 @@ This is the official course schedule. Slides/notes are typically posted **before
 | **March 3** | **Time Domain Analysis** · IV | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCVq_YlJ5oWRJSHyWkRVJcyAZKLZv7pZueHO0uGsh286nA?e=svpGPI){.btn .btn-sm .btn-outline-primary} | |
 | **March 5** | ** ** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
+## Week 9
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **March 8** | **2nd Order System** · Zeros and Poles | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDighffGzUOT525hcO9Z5V5AWGbbhikheduKTKDKfZ2Cbc?e=ePf8W1){.btn .btn-sm .btn-outline-primary} |
+| **March 10** | **PID Controller​** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQD7b7gelnDeQpjNMdRcFq-QARDPHqarf2bGnQPjwy9l7Ak?e=cWYLPy){.btn .btn-sm .btn-outline-primary} | |
+| **March 12** | **Stability​** · Routh Hurwitz  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAAg3ms6Hq8Tb_VGb9zmho-AaFGhTV7KIwRTjxNd7aiIio?e=ycKUoD){.btn .btn-sm .btn-outline-primary} | |
+
 ::: {.callout-note appearance="minimal"}
 ### Notes
 - If a slide link does not open, make sure you are logged in with your **KFUPM** account in the browser.
