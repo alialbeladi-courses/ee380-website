@@ -86,6 +86,54 @@ This is the official course schedule. Slides/notes are typically posted **before
 | **March 10** | **PID Controller​** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQD7b7gelnDeQpjNMdRcFq-QARDPHqarf2bGnQPjwy9l7Ak?e=cWYLPy){.btn .btn-sm .btn-outline-primary} | |
 | **March 12** | **Stability​** · Routh Hurwitz  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAAg3ms6Hq8Tb_VGb9zmho-AaFGhTV7KIwRTjxNd7aiIio?e=ycKUoD){.btn .btn-sm .btn-outline-primary} | |
 
+## Week 10
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **March 29** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 31** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 2** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 11
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **April 5** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project M1 due](project.qmd){.btn .btn-sm .btn-danger} |
+| **April 7** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 9** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 12
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **April 12** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 14** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 16** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 13
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **April 19** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project M2 due](project.qmd){.btn .btn-sm .btn-danger} |
+| **April 21** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 23** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 14
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **April 26** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 28** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 30** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
+## Week 15
+
+| Date | Topic | Materials | Deadlines |
+|---|---|---|---|
+| **May 3** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project Final Demo](project.qmd){.btn .btn-sm .btn-danger} |
+| **May 5** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project Final Report due](project.qmd){.btn .btn-sm .btn-danger} |
+| **May 7** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+
 ::: {.callout-note appearance="minimal"}
 ### Notes
 - If a slide link does not open, make sure you are logged in with your **KFUPM** account in the browser.
