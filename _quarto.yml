@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
+    - "!modules/"
 
 website:
   title: "EE380: Control Systems"
