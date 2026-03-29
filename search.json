@@ -1,24 +1,27 @@
 [
   {
-    "objectID": "modules/sim_step.html",
-    "href": "modules/sim_step.html",
-    "title": "Simulation: Step Response",
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Course Project",
     "section": "",
-    "text": "This module demonstrates two ways to add interactivity to your course notes."
+    "text": "NoteAbout the Course Project\n\n\n\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.\n📂 View Project Ideas & Build Resources",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Course Project"
+    ]
   },
   {
-    "objectID": "modules/sim_step.html#virtual-lab-shinylive",
-    "href": "modules/sim_step.html#virtual-lab-shinylive",
-    "title": "Simulation: Step Response",
-    "section": "1. Virtual Lab (Shinylive)",
-    "text": "1. Virtual Lab (Shinylive)\nThis specific app runs entirely in your browser. It visualizes the step response of a second-order system. Students can manipulate the Damping Ratio (\\(\\zeta\\)) and Natural Frequency (\\(\\omega_n\\)) to see the effect on overshoot and settling time.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 500\nfrom shiny import App, ui\nimport numpy as np\nimport matplotlib.pyplot as plt\n\napp_ui = ui.page_fluid(\n    ui.layout_sidebar(\n        ui.sidebar(\n            ui.input_slider(\"zeta\", \"Damping Ratio (ζ)\", 0.0, 2.0, 0.4, step=0.1),\n            ui.input_slider(\"omega\", \"Natural Freq (ωn)\", 1.0, 10.0, 3.0),\n        ),\n        ui.output_plot(\"plot\")\n    )\n)\n\ndef server(input, output, session):\n    @output\n    @ui.render.plot\n    def plot():\n        t = np.linspace(0, 10, 500)\n        zeta = input.zeta()\n        wn = input.omega()\n        \n        # Step response for 2nd order system: G(s) = wn^2 / (s^2 + 2*zeta*wn*s + wn^2)\n        plt.figure(figsize=(10, 6))\n        \n        # Avoid division by zero\n        if wn == 0: wn = 0.01\n        \n        # 1. Undamped (zeta = 0)\n        if zeta == 0:\n            y = 1 - np.cos(wn * t)\n            \n        # 2. Underdamped (0 &lt; zeta &lt; 1)\n        elif zeta &lt; 1.0:\n            wd = wn * np.sqrt(1 - zeta**2)\n            phi = np.arctan(np.sqrt(1 - zeta**2) / zeta)\n            y = 1 - (1 / np.sqrt(1 - zeta**2)) * np.exp(-zeta * wn * t) * np.sin(wd * t + phi)\n            \n        # 3. Critically Damped (zeta = 1)\n        elif zeta == 1.0:\n            y = 1 - (1 + wn * t) * np.exp(-wn * t)\n            \n        # 4. Overdamped (zeta &gt; 1)\n        else:\n            p1 = -zeta * wn + wn * np.sqrt(zeta**2 - 1)\n            p2 = -zeta * wn - wn * np.sqrt(zeta**2 - 1)\n            y = 1 + (p2 * np.exp(p1 * t) - p1 * np.exp(p2 * t)) / (p1 - p2)\n\n        plt.plot(t, y, lw=2, label='Response')\n        plt.axhline(1, color='gray', linestyle='--', alpha=0.5, label='Target')\n        plt.title(f\"Step Response (ζ={zeta}, ωn={wn})\")\n        plt.xlabel(\"Time (s)\")\n        plt.ylabel(\"Amplitude\")\n        plt.grid(True, alpha=0.3)\n        plt.ylim(-0.5, 2.0)\n        plt.legend()\n\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "modules/sim_step.html#live-calculation-pyodide",
-    "href": "modules/sim_step.html#live-calculation-pyodide",
-    "title": "Simulation: Step Response",
-    "section": "2. Live Calculation (Pyodide)",
-    "text": "2. Live Calculation (Pyodide)\nFor homework problems, students can write run this code directly. Try changing the values below and running it again.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "project.html#project-assessment-and-timeline",
+    "href": "project.html#project-assessment-and-timeline",
+    "title": "Course Project",
+    "section": "Project Assessment and Timeline",
+    "text": "Project Assessment and Timeline\nThis is a 5-week project with 3 graded milestones.\n\n\n\nComponent\nWeight\nDue Date\n\n\n\n\nMilestone 1 — Project definition & modeling\n20%\nApril 4\n\n\nMilestone 2 — Simulation & early hardware\n25%\nApril 18\n\n\nFinal demonstration\n25%\nMay 3\n\n\nFinal technical report\n20%\nMay 5\n\n\nIndividual contribution & professionalism\n10%\nOngoing\n\n\n\n\nMilestone 1: Project Definition and Modeling (20%)\nSubmit:\n\nChosen project and team members\nControl objective\nIdentified input, output, actuator, sensor, and main disturbance\nInitial mathematical model with assumptions\nParts list and build plan\n\n\n\nMilestone 2: Simulation and Early Hardware Progress (25%)\nSubmit:\n\nSimulation model and controller design\nPlots showing system response\nProgress on hardware build\nProof that sensing and actuation are working at a basic level\n\n\n\nFinal Demonstration (25%)\nYou must:\n\nGive a live demo of the built system\nShow closed-loop operation\nExplain what works and what does not\n\n\n\nFinal Technical Report (20%)\nThe report should include:\n\nProject overview\nModel derivation\nSimulation results\nController design\nHardware implementation\nExperimental results\nComparison between simulation and experiment\nDiscussion of limitations and improvements\n\n\n\nIndividual Contribution and Professionalism (10%)\nBased on:\n\nShort individual reflection\nPeer evaluation\nMeeting deadlines\nContribution during demo/presentation\n\n\n\n\n\n\n\n\nImportantRemember\n\n\n\nThe resources above are starting points. Your final project must include your own modeling, simulation, hardware implementation, and closed-loop control. Use these references to understand the build process, then make the project your own.",
+    "crumbs": [
+      "Home",
+      "Project",
+      "Course Project"
+    ]
   },
   {
     "objectID": "policy.html",
@@ -66,6 +69,42 @@
       "Home",
       "Course Info",
       "Course Policy"
+    ]
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Homework",
+    "section": "",
+    "text": "NoteSubmission\n\n\n\nAssignments are due by 11:59 PM (Asia/Riyadh) and submitted on Gradescope.\nOpen Gradescope Entry code: D684VR",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "Homework"
+    ]
+  },
+  {
+    "objectID": "homework.html#assignments",
+    "href": "homework.html#assignments",
+    "title": "Homework",
+    "section": "Assignments",
+    "text": "Assignments\n\n\n\nAssignment\nRelease\nDue\nFiles\nSolution\n\n\n\n\nHW 1\nJan 23\nJan 31\nHW1 PDF\nHW1 Sol PDF\n\n\nHW 2\nFeb 7\nFeb 14\nHW2 PDF\nHW2 Sol PDF\n\n\nHW 3\nTBA\nTBA\n—\n\n\n\n\n\n\n\n\n\n\nTipQuick checklist (Gradescope)\n\n\n\n\nSubmit one PDF (clear scans, high contrast).\nStart each question on a new page (recommended).\nUse Gradescope’s tool to map pages → questions.\nIf the grader cannot read it, they may request a resubmission or deduct points.\nFor multi-page answers, link all relevant pages to that question.\n\n\n\nNeed help submitting? See Gradescope’s student guide: How to submit variable-length assignments",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "Homework"
+    ]
+  },
+  {
+    "objectID": "homework.html#policies",
+    "href": "homework.html#policies",
+    "title": "Homework",
+    "section": "Policies",
+    "text": "Policies\n\n\n\n\n\n\nWarningLate days\n\n\n\nYou have 6 late days total, with a maximum of 2 late days per assignment.\nEach late day is a 24-hour extension (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).\nNo credit is given after 48 hours past the deadline, or after late days are exhausted.\n\n\n\n\nCollaboration policy and honor code\nStudents must work individually on all homework assignments.\nYou may have high-level discussions with classmates, but anything you submit must be your own work.\nYou may reuse small snippets of publicly available code (e.g., StackOverflow) only if properly attributed.\n\n\nGenerative AI tools policy\nIn this course, every element of class assignments must be fully prepared by the student.\nThe use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism — unless it is explicitly permitted and announced by the instructor.\n\n\nRegrade policy\nRegrade requests are submitted through Gradescope. Include a clear explanation of the grading error.\n\nDeadline: within 1 week of receiving your grade, by 11:59 PM.\nWe may regrade the entire assignment (your score may go up or down).\n\nLegitimate requests - Points were added incorrectly. - The answer exists but was on a different page. - The grader claims a specific case fails, but your implementation works for that case.\nIllegitimate requests - Disagreeing with the rubric / asking for more partial credit without an error. - “My solution wasn’t clear, but what I meant was correct.”",
+    "crumbs": [
+      "Home",
+      "Assignments",
+      "Homework"
     ]
   },
   {
@@ -181,7 +220,7 @@
     "href": "calendar.html#week-9",
     "title": "Schedule & Materials",
     "section": "Week 9",
-    "text": "Week 9\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nMarch 8\n2nd Order System · Zeros and Poles\nSlides (PDF)\n\n\n\nMarch 10\nPID Controller​ ·\nSlides (PDF)\n\n\n\nMarch 12\nStability​ · Routh Hurwitz\nSlides (PDF)\n\n\n\n\n\n\n\n\n\n\nNoteNotes\n\n\n\n\nIf a slide link does not open, make sure you are logged in with your KFUPM account in the browser.\nThe schedule may be adjusted; updates will be posted on the Home → Announcements section.",
+    "text": "Week 9\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nMarch 8\n2nd Order System · Zeros and Poles\nSlides (PDF)\n\n\n\nMarch 10\nPID Controller​ ·\nSlides (PDF)\n\n\n\nMarch 12\nStability​ · Routh Hurwitz\nSlides (PDF)",
     "crumbs": [
       "Home",
       "Schedule",
@@ -189,39 +228,75 @@
     ]
   },
   {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Homework",
-    "section": "",
-    "text": "NoteSubmission\n\n\n\nAssignments are due by 11:59 PM (Asia/Riyadh) and submitted on Gradescope.\nOpen Gradescope Entry code: D684VR",
+    "objectID": "calendar.html#week-10",
+    "href": "calendar.html#week-10",
+    "title": "Schedule & Materials",
+    "section": "Week 10",
+    "text": "Week 10\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nMarch 29\n**** ·\nSlides (PDF)\n\n\n\nMarch 31\n**** ·\nSlides (PDF)\n\n\n\nApril 2\n**** ·\nSlides (PDF)",
     "crumbs": [
       "Home",
-      "Assignments",
-      "Homework"
+      "Schedule",
+      "Schedule & Materials"
     ]
   },
   {
-    "objectID": "homework.html#assignments",
-    "href": "homework.html#assignments",
-    "title": "Homework",
-    "section": "Assignments",
-    "text": "Assignments\n\n\n\nAssignment\nRelease\nDue\nFiles\nSolution\n\n\n\n\nHW 1\nJan 23\nJan 31\nHW1 PDF\nHW1 Sol PDF\n\n\nHW 2\nFeb 7\nFeb 14\nHW2 PDF\nHW2 Sol PDF\n\n\nHW 3\nTBA\nTBA\n—\n\n\n\n\n\n\n\n\n\n\nTipQuick checklist (Gradescope)\n\n\n\n\nSubmit one PDF (clear scans, high contrast).\nStart each question on a new page (recommended).\nUse Gradescope’s tool to map pages → questions.\nIf the grader cannot read it, they may request a resubmission or deduct points.\nFor multi-page answers, link all relevant pages to that question.\n\n\n\nNeed help submitting? See Gradescope’s student guide: How to submit variable-length assignments",
+    "objectID": "calendar.html#week-11",
+    "href": "calendar.html#week-11",
+    "title": "Schedule & Materials",
+    "section": "Week 11",
+    "text": "Week 11\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nApril 5\n**** ·\nSlides (PDF)\nProject M1 due\n\n\nApril 7\n**** ·\nSlides (PDF)\n\n\n\nApril 9\n**** ·\nSlides (PDF)",
     "crumbs": [
       "Home",
-      "Assignments",
-      "Homework"
+      "Schedule",
+      "Schedule & Materials"
     ]
   },
   {
-    "objectID": "homework.html#policies",
-    "href": "homework.html#policies",
-    "title": "Homework",
-    "section": "Policies",
-    "text": "Policies\n\n\n\n\n\n\nWarningLate days\n\n\n\nYou have 6 late days total, with a maximum of 2 late days per assignment.\nEach late day is a 24-hour extension (e.g., Wed 11:59 PM → Thu 11:59 PM = 1 late day).\nNo credit is given after 48 hours past the deadline, or after late days are exhausted.\n\n\n\n\nCollaboration policy and honor code\nStudents must work individually on all homework assignments.\nYou may have high-level discussions with classmates, but anything you submit must be your own work.\nYou may reuse small snippets of publicly available code (e.g., StackOverflow) only if properly attributed.\n\n\nGenerative AI tools policy\nIn this course, every element of class assignments must be fully prepared by the student.\nThe use of generative AI tools for any part of your work is not allowed and will be treated as plagiarism — unless it is explicitly permitted and announced by the instructor.\n\n\nRegrade policy\nRegrade requests are submitted through Gradescope. Include a clear explanation of the grading error.\n\nDeadline: within 1 week of receiving your grade, by 11:59 PM.\nWe may regrade the entire assignment (your score may go up or down).\n\nLegitimate requests - Points were added incorrectly. - The answer exists but was on a different page. - The grader claims a specific case fails, but your implementation works for that case.\nIllegitimate requests - Disagreeing with the rubric / asking for more partial credit without an error. - “My solution wasn’t clear, but what I meant was correct.”",
+    "objectID": "calendar.html#week-12",
+    "href": "calendar.html#week-12",
+    "title": "Schedule & Materials",
+    "section": "Week 12",
+    "text": "Week 12\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nApril 12\n**** ·\nSlides (PDF)\n\n\n\nApril 14\n**** ·\nSlides (PDF)\n\n\n\nApril 16\n**** ·\nSlides (PDF)",
     "crumbs": [
       "Home",
-      "Assignments",
-      "Homework"
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-13",
+    "href": "calendar.html#week-13",
+    "title": "Schedule & Materials",
+    "section": "Week 13",
+    "text": "Week 13\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nApril 19\n**** ·\nSlides (PDF)\nProject M2 due\n\n\nApril 21\n**** ·\nSlides (PDF)\n\n\n\nApril 23\n**** ·\nSlides (PDF)",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-14",
+    "href": "calendar.html#week-14",
+    "title": "Schedule & Materials",
+    "section": "Week 14",
+    "text": "Week 14\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nApril 26\n**** ·\nSlides (PDF)\n\n\n\nApril 28\n**** ·\nSlides (PDF)\n\n\n\nApril 30\n**** ·\nSlides (PDF)",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
+    ]
+  },
+  {
+    "objectID": "calendar.html#week-15",
+    "href": "calendar.html#week-15",
+    "title": "Schedule & Materials",
+    "section": "Week 15",
+    "text": "Week 15\n\n\n\nDate\nTopic\nMaterials\nDeadlines\n\n\n\n\nMay 3\n**** ·\nSlides (PDF)\nProject Final Demo\n\n\nMay 5\n**** ·\nSlides (PDF)\nProject Final Report due\n\n\nMay 7\n**** ·\nSlides (PDF)\n\n\n\n\n\n\n\n\n\n\nNoteNotes\n\n\n\n\nIf a slide link does not open, make sure you are logged in with your KFUPM account in the browser.\nThe schedule may be adjusted; updates will be posted on the Home → Announcements section.",
+    "crumbs": [
+      "Home",
+      "Schedule",
+      "Schedule & Materials"
     ]
   },
   {
@@ -271,58 +346,6 @@
       "Course Info",
       "EE380: Control Systems"
     ]
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Course Project",
-    "section": "",
-    "text": "NoteAbout the Course Project\n\n\n\nFor the project, your team must model, simulate, and build the system and implement closed-loop control.\n📂 View Project Ideas & Build Resources",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project"
-    ]
-  },
-  {
-    "objectID": "project.html#project-assessment-and-timeline",
-    "href": "project.html#project-assessment-and-timeline",
-    "title": "Course Project",
-    "section": "Project Assessment and Timeline",
-    "text": "Project Assessment and Timeline\nThis is a 5-week project with 3 graded milestones.\n\n\n\nComponent\nWeight\nDue Date\n\n\n\n\nMilestone 1 — Project definition & modeling\n20%\nApril 4\n\n\nMilestone 2 — Simulation & early hardware\n25%\nApril 18\n\n\nFinal demonstration\n25%\nMay 3\n\n\nFinal technical report\n20%\nMay 5\n\n\nIndividual contribution & professionalism\n10%\nOngoing\n\n\n\n\nMilestone 1: Project Definition and Modeling (20%)\nSubmit:\n\nChosen project and team members\nControl objective\nIdentified input, output, actuator, sensor, and main disturbance\nInitial mathematical model with assumptions\nParts list and build plan\n\n\n\nMilestone 2: Simulation and Early Hardware Progress (25%)\nSubmit:\n\nSimulation model and controller design\nPlots showing system response\nProgress on hardware build\nProof that sensing and actuation are working at a basic level\n\n\n\nFinal Demonstration (25%)\nYou must:\n\nGive a live demo of the built system\nShow closed-loop operation\nExplain what works and what does not\n\n\n\nFinal Technical Report (20%)\nThe report should include:\n\nProject overview\nModel derivation\nSimulation results\nController design\nHardware implementation\nExperimental results\nComparison between simulation and experiment\nDiscussion of limitations and improvements\n\n\n\nIndividual Contribution and Professionalism (10%)\nBased on:\n\nShort individual reflection\nPeer evaluation\nMeeting deadlines\nContribution during demo/presentation\n\n\n\n\n\n\n\n\nImportantRemember\n\n\n\nThe resources above are starting points. Your final project must include your own modeling, simulation, hardware implementation, and closed-loop control. Use these references to understand the build process, then make the project your own.",
-    "crumbs": [
-      "Home",
-      "Project",
-      "Course Project"
-    ]
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html",
-    "href": "INSTRUCTOR_GUIDE.html",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "This website is built with Quarto. It uses GitHub Pages for hosting and Pyodide for interactive Python simulations.\n\n\n\n\n\nCreate a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)\n\n\n\n\n\n\n\n\nOpen calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update.\n\n\n\n\nOnce the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "href": "INSTRUCTOR_GUIDE.html#initial-setup",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Create a new repository on GitHub (e.g., ee380-website).\nClone this folder to your machine.\nPush this initial code to the main branch.\n\n\n\n\n\nInstall Quarto: Download from quarto.org.\nVS Code: Recommended editor. Install the “Quarto” extension.\nInstall Pyodide Extension: Open a terminal in this folder and run: bash     quarto add quarto-ext/shinylive     # OR for standard pyodide     quarto add coatless-quarto/pyodide (Note: The current template assumes standard code blocks initially. To use the interactive features, you must install the extension.)"
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "href": "INSTRUCTOR_GUIDE.html#weekly-workflow",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Open calendar.qmd.\nAdd new rows to the table for the upcoming week.\nLink slides (put PDF files in a slides/ folder if you like, or link externally).\n\n\n\n\n\nOpen homework.qmd.\nAdd a new row to the table.\nLink the PDF assignment.\n\n\n\n\nTo publish, you just need to push to GitHub. The Setup is already configured (see .github/workflows/publish.yml).\ngit add .\ngit commit -m \"Update week 3 schedule\"\ngit push\nWithin nearly 60 seconds, your site at https://&lt;username&gt;.github.io/&lt;repo&gt; will update."
-  },
-  {
-    "objectID": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "href": "INSTRUCTOR_GUIDE.html#adding-interactive-simulations",
-    "title": "Instructor Guide: EE380 Course Website",
-    "section": "",
-    "text": "Once the Pyodide extension is installed, you can add interactive cells like this:\n```{pyodide-python}\nimport matplotlib.pyplot as plt\nimport numpy as np\nx = np.linspace(0, 10, 100)\nplt.plot(x, np.sin(x))\nplt.show()\n```\nThis will render as an interactive, editable, regular Python cell in the student’s browser."
   },
   {
     "objectID": "project-ideas.html",
