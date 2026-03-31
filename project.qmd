@@ -15,13 +15,13 @@ For the project, your team must **model, simulate, and build** the system and im
 
 This is a **5-week project** with **3 graded milestones**.
 
-| Component | Weight | Due Date |
-|---|:---:|:---:|
-| **Milestone 1** — Project definition & modeling | 20% | April 4 |
-| **Milestone 2** — Simulation & early hardware | 25% | April 18 |
-| **Final demonstration** | 25% | May 3 |
-| **Final technical report** | 20% | May 5 |
-| **Individual contribution & professionalism** | 10% | Ongoing |
+| Component | Weight | Due Date | Submission |
+|---|:---:|:---:|:---:|
+| **Milestone 1** — Project definition & modeling | 20% | April 4 | Link|
+| **Milestone 2** — Simulation & early hardware | 25% | April 18 | |
+| **Final demonstration** | 25% | May 3 | |
+| **Final technical report** | 20% | May 5 | |
+| **Individual contribution & professionalism** | 10% | Ongoing | |
 
 ### Milestone 1: Project Definition and Modeling (20%)
 
