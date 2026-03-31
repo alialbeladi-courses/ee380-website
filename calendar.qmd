@@ -90,8 +90,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **March 29** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **March 31** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 29** | **Root Locus** I  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQC7IQ8fqWLdTaR_IiV38fQOAXxHcOLC2l7UVfVdOtRstWY?e=MEPQDM){.btn .btn-sm .btn-outline-primary} | |
+| **March 31** | **Root Locus** II  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCnAOSIUxLmS756D1A4wMiDAYrP7YHiZluX81xXju5n_bU?e=0AVdro){.btn .btn-sm .btn-outline-primary} | |
 | **April 2** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 11
