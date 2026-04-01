@@ -17,7 +17,7 @@ This is a **5-week project** with **3 graded milestones**.
 
 | Component | Weight | Due Date | Submission |
 |---|:---:|:---:|:---:|
-| **Milestone 1** — Project definition & modeling | 20% | April 4 | Link (https://forms.office.com/Pages/ResponsePage.aspx?id=iLC0KX3SKUG5-YY3tZ6ks0CgaHBEKShAjtM5JlnmP3pURFRMVklWMVVEM0FDUEpFQ1g3RUtUQkQ1US4u)|
+| **Milestone 1** — Project definition & modeling | 20% | April 4 | [Link](https://forms.office.com/Pages/ResponsePage.aspx?id=iLC0KX3SKUG5-YY3tZ6ks0CgaHBEKShAjtM5JlnmP3pURFRMVklWMVVEM0FDUEpFQ1g3RUtUQkQ1US4u){.btn .btn-sm .btn-outline-primary}|
 | **Milestone 2** — Simulation & early hardware | 25% | April 18 | |
 | **Final demonstration** | 25% | May 3 | |
 | **Final technical report** | 20% | May 5 | |
