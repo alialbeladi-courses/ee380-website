@@ -58,7 +58,7 @@ This website is the **single source of truth** for announcements, schedule updat
 ::: {.card .mb-3}
 ::: {.card-body}
 ### Quiz 3
-Kindly be informed that quiz 3, on chapter 5 (Lectures of 24 Feb. to 10 Mar), will take place on Sunday, April 6. All the best.
+Kindly be informed that quiz 3, on chapter 5 (Lectures of 24 Feb. to 10 Mar), will take place on Sunday, April 5. All the best.
 :::
 :::
 
