@@ -90,16 +90,16 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **March 29** | **Root Locus** I  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQC7IQ8fqWLdTaR_IiV38fQOAXxHcOLC2l7UVfVdOtRstWY?e=MEPQDM){.btn .btn-sm .btn-outline-primary} | |
-| **March 31** | **Root Locus** II  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCnAOSIUxLmS756D1A4wMiDAYrP7YHiZluX81xXju5n_bU?e=0AVdro){.btn .btn-sm .btn-outline-primary} | |
-| **April 2** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 29** | **Root Locus** · I  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQC7IQ8fqWLdTaR_IiV38fQOAXxHcOLC2l7UVfVdOtRstWY?e=MEPQDM){.btn .btn-sm .btn-outline-primary} | |
+| **March 31** | **Root Locus** · II  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCnAOSIUxLmS756D1A4wMiDAYrP7YHiZluX81xXju5n_bU?e=0AVdro){.btn .btn-sm .btn-outline-primary} | |
+| **April 2** | **Root Locus** · III  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBj8VpDmLJiT4QfEGGXHckFARa9HVlEuFAOMjT2rvpvnhE?e=HwFhk8){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 11
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **April 5** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project M1 due](project.qmd){.btn .btn-sm .btn-danger} |
-| **April 7** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 5** | **Root Locus** · IV | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCDsAMoK7WrTorgqv14ppJUAcqIWne3uzpHss9c269-7b4?e=kzIq8H){.btn .btn-sm .btn-outline-primary} | [Project M1 due](project.qmd){.btn .btn-sm .btn-danger} |
+| **April 7** | **Root Locus** · V  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQD_5BXBVNg-RbWTWdqYXL1WAe0uu6imEhSVbIIwSpBApDo?e=vXAZsZ){.btn .btn-sm .btn-outline-primary} | |
 | **April 9** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 12
