@@ -108,7 +108,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **April 12** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 | **April 14** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **April 16** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 16** | **PID** · Practical Issues | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAlOWL0p6BfQIk15IMgB4fsAYheUHOR3oFFqwE2TxY_K7c?e=eQPORS){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 13
 
