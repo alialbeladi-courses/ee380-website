@@ -76,7 +76,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **March 1** | **Time Domain Analysis** · III | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAuEVa_bcuHRKtNvXaUHRf-ARhVh4Bp-Xdz9jFK6BE_PWc?e=vgr9GX){.btn .btn-sm .btn-outline-primary} |
 | **March 3** | **Time Domain Analysis** · IV | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCVq_YlJ5oWRJSHyWkRVJcyAZKLZv7pZueHO0uGsh286nA?e=svpGPI){.btn .btn-sm .btn-outline-primary} | |
-| **March 5** | ** ** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **March 5** |  ·  |  | |
 
 ## Week 9
 
@@ -100,23 +100,23 @@ This is the official course schedule. Slides/notes are typically posted **before
 |---|---|---|---|
 | **April 5** | **Root Locus** · IV | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQCnD_ZG35HyTLxWIAskCq6CAR-xs2QiG5uCK78W6kpE8kQ?e=QrBHmd){.btn .btn-sm .btn-outline-primary} | [Project M1 due](project.qmd){.btn .btn-sm .btn-danger} |
 | **April 7** | **Root Locus** · V  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQD_5BXBVNg-RbWTWdqYXL1WAe0uu6imEhSVbIIwSpBApDo?e=vXAZsZ){.btn .btn-sm .btn-outline-primary} | |
-| **April 9** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 9** | **Review** ·  |  | |
 
 ## Week 12
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **April 12** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **April 14** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 12** | **Review** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 14** | **No Class** ·  | | |
 | **April 16** | **PID** · Practical Issues | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAlOWL0p6BfQIk15IMgB4fsAYheUHOR3oFFqwE2TxY_K7c?e=eQPORS){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 13
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **April 19** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project M2 due](project.qmd){.btn .btn-sm .btn-danger} |
-| **April 21** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
-| **April 23** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 19** | **Lead Compensators using Root Locus** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQAPmOFYG-Y8TqbRGEM1KJVQAX4akI2QuaGvrAkGgxSC6Go?e=zNuD6x){.btn .btn-sm .btn-outline-primary} | [Project M2 due](project.qmd){.btn .btn-sm .btn-danger} |
+| **April 21** | **Frequency Response Methods** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBO3AYgjQk7SYRJEXF9627eAeG-uP53GqPl1Pm30tpa0-s?e=bf3RGp){.btn .btn-sm .btn-outline-primary} | |
+| **April 23** | **Drawing the Bode Plots** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQD2U6ezWoX-ToUDq3WT-1gNAWekcvpGrZx-ZaWVbvDguL4?e=fIegNf){.btn .btn-sm .btn-outline-primary} | |
 
 ## Week 14
 
