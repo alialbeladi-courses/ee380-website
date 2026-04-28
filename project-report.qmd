@@ -1,0 +1,43 @@
+---
+title: "Technical Report Guidelines"
+format: html
+toc: true
+---
+
+::: {.callout-note appearance="minimal"}
+## About the Technical Report
+Your final technical report documents the complete journey from system modeling to control implementation. Use this page as a checklist to ensure your report is thorough and well-structured.
+:::
+
+## 1 Model the System
+
+- Develop a mathematical model of the reaction wheel system using angular momentum conservation principles.
+- Derive the equations of motion and obtain a transfer function representing the system dynamics.
+- Estimate the model parameters of your implemented system. (Assume any missing parameters.)
+
+## 2 Control Design
+
+- Use the transfer function to design a control system that stabilizes the platform.
+- Design and analyze multiple feedback control strategies (test **at least four controllers**) to achieve the desired control objectives.
+- Choose control parameters that ensure system stability, fast response, and minimal overshoot.
+
+## 3 Simulate the System
+
+- Implement the system model and control design in MATLAB/Simulink.
+- Simulate different scenarios to analyze system behavior, including external disturbances and initial condition variations.
+- Use time-domain and frequency-domain techniques to evaluate the system's performance metrics, including stability, rise time, settling time, and steady-state error.
+
+## 4 Project Report
+
+- Write a report detailing the system model, control design, simulation results, and implementation insights.
+- Include references and resources used.
+
+## Assessment Criteria
+
+Your technical report will be graded on:
+
+1. Accuracy and clarity of system modeling and derivation of equations.
+2. Effectiveness of the control design in achieving stability and performance goals.
+3. Completeness and accuracy of simulations, including performance metrics and stability analysis.
+4. Quality and thoroughness of the report.
+5. Peer evaluation.

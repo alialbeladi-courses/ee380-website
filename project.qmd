@@ -23,7 +23,7 @@ This is a **5-week project** with **3 graded milestones**.
 | **Final technical report** | 20% | May 5 | |
 | **Individual contribution & professionalism** | 10% | Ongoing | |
 
-### Milestone 1: Project Definition and Modeling (20%)
+### Milestone 1: Project Definition and Modeling (10%)
 
 Submit:
 
@@ -33,7 +33,7 @@ Submit:
 - Initial mathematical model with assumptions
 - Parts list and build plan
 
-### Milestone 2: Simulation and Early Hardware Progress (25%)
+### Milestone 2: Simulation and Early Hardware Progress (10%)
 
 Submit:
 
@@ -42,7 +42,7 @@ Submit:
 - Progress on hardware build
 - Proof that sensing and actuation are working at a basic level
 
-### Final Demonstration (25%)
+### Final Demonstration (30%)
 
 You must:
 
@@ -50,18 +50,11 @@ You must:
 - Show closed-loop operation
 - Explain what works and what does not
 
-### Final Technical Report (20%)
+### Final Technical Report (50%)
 
-The report should include:
+Your report should document the full project lifecycle — system modeling, control design, simulation, and implementation insights. Detailed guidelines and assessment criteria are on the dedicated page below.
 
-- Project overview
-- Model derivation
-- Simulation results
-- Controller design
-- Hardware implementation
-- Experimental results
-- Comparison between simulation and experiment
-- Discussion of limitations and improvements
+[📄 View Report Guidelines & Assessment Criteria](project-report.qmd){.btn .btn-primary .btn-sm}
 
 ### Individual Contribution and Professionalism (10%)
 

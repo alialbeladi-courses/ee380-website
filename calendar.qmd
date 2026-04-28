@@ -122,7 +122,7 @@ This is the official course schedule. Slides/notes are typically posted **before
 
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
-| **April 26** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **April 26** | **Stability from Bode Plots** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQB7y8yPy1SuR7iga6R_BWCyAUyQq0sB09sCiGlmrHyF3pM?e=TL8qxb){.btn .btn-sm .btn-outline-primary} | |
 | **April 28** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 | **April 30** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
 

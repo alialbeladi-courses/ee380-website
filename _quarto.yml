@@ -48,6 +48,7 @@ website:
         contents:
           - project.qmd
           - project-ideas.qmd
+          - project-report.qmd
 
   page-footer:
     border: true
