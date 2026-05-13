@@ -131,8 +131,8 @@ This is the official course schedule. Slides/notes are typically posted **before
 | Date | Topic | Materials | Deadlines |
 |---|---|---|---|
 | **May 3** | **Nyquist Stability Criterion** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDFAIFDJiFzQLeO8zfSUeqFAY3XFsbVfJ-TdJIIhAnE_0E?e=sHYVPW){.btn .btn-sm .btn-outline-primary} | [Project Final Demo](project.qmd){.btn .btn-sm .btn-danger} |
-| **May 5** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | [Project Final Report due](project.qmd){.btn .btn-sm .btn-danger} |
-| **May 7** | **** ·  | [Slides (PDF)](){.btn .btn-sm .btn-outline-primary} | |
+| **May 5** | **Nyquist Stability Criterion 2** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQBx0u7XcaLZSbPr0saSitQ9AVABcSCUM7EqWvlqOxjhIfY?e=8pF5t3){.btn .btn-sm .btn-outline-primary} | [Project Final Report due](project.qmd){.btn .btn-sm .btn-danger} |
+| **May 7** | **Phase Lead (Lead Compensator) Using Bode Plot** ·  | [Slides (PDF)](https://kfupmedusa-my.sharepoint.com/:b:/g/personal/albeladi_kfupm_edu_sa/IQDMeP9yaSCKTok1rNMvsubGAZHJRM7ri2N5vo5zKDd3Mfc?e=20jD3e){.btn .btn-sm .btn-outline-primary} | |
 
 ::: {.callout-note appearance="minimal"}
 ### Notes
